@@ -13,16 +13,16 @@ body {
 .main {
   position: relative;
 }
-
+/* ---------- Home -> part 1 --------- */
 .header {
   width: 100%;
   height: 100vh;
   background-color: #f8f7f4;
 }
-
+/* ---------- Navbar --------- */
 .navbar {
   width: 100%;
-  height: 13vh;
+  height: 15vh;
   /* border: 1px solid red; */
   display: flex;
   align-items: center;
@@ -69,7 +69,7 @@ a:hover {
 
 .navbar-right > .sing-up {
   display: flex;
-  padding: 10px 17px;
+  padding: 15px 20px;
   background-color: #0d0c22;
   border-radius: 50px;
   color: white;
@@ -77,12 +77,13 @@ a:hover {
 }
 .navbar-right > .sing-up:hover {
   opacity: 0.8;
+  transition: ease 0.5s;
 }
 .navbar-right input {
-  padding: 12px 18px 12px 40px;
+  padding: 13px 18px 13px 40px;
   background-image: url("./assets/magnifying-glass.png");
-  background-size: 20px 20px;
-  background-position: 18px 11px;
+  background-size: 19px 19px;
+  background-position: 18px 14px;
   background-repeat: no-repeat;
   background-color: #fff;
   border-radius: 50px;
@@ -90,19 +91,20 @@ a:hover {
   font-size: 16px;
 }
 
+/* ---------- Work Part --------- */
 .work {
-  border: 1px solid blue;
+  /* border: 1px solid rgb(0, 38, 255); */
   display: flex;
   position: relative;
   align-items: center;
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  height: 70vh;
+  height: 75vh;
 }
 .work .work-part {
   position: relative;
-  top: -5vh;
+  top: -6vh;
   display: flex;
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
@@ -113,7 +115,7 @@ a:hover {
 }
 .work-part2 .hero {
   position: relative;
-  top: -2vh;
+  top: 0vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -122,5 +124,92 @@ a:hover {
   /* font-family: ; */
   /* font-weight: bold; */
   letter-spacing: 1px;
-  line-height: 80px;
+  line-height: 75px;
+}
+.work p{
+    position: relative;
+    top: 2vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 23px;
+    color: #000000;
+    line-height: 50px;
+}
+.work button{
+    position: relative;
+    top: 6vh;
+    padding: 18px 25px;
+    font-size: 14px;
+    background-color: #0d0c22;
+    border-radius: 50px;
+    font-weight: bold;
+    color: #fff;
+}
+.work button:hover{
+    opacity: 0.8;
+    transition: ease 0.5s;
+}
+
+/* ---------- Home -> Part 2 --------- */
+.part2{
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    border: 2px solid red;
+}
+.center{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    /* border: 1px solid rgb(253, 0, 211); */
+    display: inline-block;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    z-index: 10;
+}
+.center .center-part{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid blue; */
+    display: inline-block;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    align-items: center;
+    justify-content: center;
+}
+.div{
+    position: relative;
+    width: 300px;
+    height: 100%;
+    display: inline-block;
+    border-radius: 20px;
+    margin-left: 25px;
+    animation-name: scroll;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes scroll{
+    from{
+        transform: translateX(0%);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+/* .part2 .center .center-part::-webkit-scrollbar{
+    display: none;
+} */
+.div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.div video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
