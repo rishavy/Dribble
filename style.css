@@ -148,14 +148,15 @@ a:hover {
 .work button:hover{
     opacity: 0.8;
     transition: ease 0.5s;
+    cursor: pointer;
 }
 
 /* ---------- Home -> Part 2 --------- */
 .part2{
     position: relative;
     width: 100%;
-    height: 60vh;
-    border: 2px solid red;
+    height: 65vh;
+    border: 1px solid red;
 }
 .center{
     position: relative;
@@ -207,9 +208,79 @@ a:hover {
     height: 100%;
     object-fit: cover;
     object-position: center;
+    border-radius: 30px;
 }
 .div video{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 30px;
+}
+
+/* ---------- Home -> Part 3 --------- */
+.part3{
+  width: 100%;
+  height: 545vh;
+  border: 1px solid blue;
+}
+.part3 .explore h1{
+  position: relative;
+  top: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+  letter-spacing: 1px;
+  color: #252525;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+
+/* designs */
+.designs{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  top: 10vh;
+  left: 2.5%;
+  margin-top: 3vh;
+  width: 95%;
+  height: 38vh;
+  border: 1px solid black;
+  padding: 0px 22px;
+}
+.data{
+  display: flex;
+  width: 23%;
+  height: 90%;
+  border-radius: 20px;
+  border: 1px solid orangered;
+}
+.part3 button{
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* top: 6vh; */
+    padding: 18px 25px;
+    margin-left: 45%;
+    margin-top: 9.5%;
+    font-size: 14px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    font-weight: bold;
+    color: #252525;
+    border: 1px solid black;
+}
+.part3 button:hover{
+  opacity: 0.8;
+  transition: ease 0.5s;
+  cursor: pointer;
+}
+
+/* ---------- Home -> Part 3 --------- */
+.part4{
+  width: 100%;
+  height: 120vh;
+  background-color: #ffda79;
 }
