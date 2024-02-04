@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  
+  margin-left: 40px;
+  margin-right: 40px;
+  
+}
+
+ .main{  
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+     }
+ 
+ 
+ 
+
+
+
+
+/*For 1st & 2nd box[Start]*/
+div.flex_1{
+    display: flex;
+   
+   
+    text-align: center;
+    
+}
+
+/* First box[POST A JOB] */
+div.container_1{
+    display: flex;  
+   flex-direction: column; 
+   width: 500px;
+   height: 500px;
+   margin-left: 20px;
+  align-items: center;
+   border: 1px solid aqua;
+   margin: 50px;
+   border-radius: 24px;
+}
+
+/*Second box[Get Started]*/
+div.container_2{
+    display: flex;  
+   flex-direction: column;
+   width: 500px;
+   height: 700px; 
+   border-left-width: 2px;
+   border-top-width: 2px;
+   border-color: (234, 100, 217);
+   opacity: 1;
+   background-color: var(--token-9ab47ae7-3c69-4a9e-9ff8-993fc8bc0a0e, rgb(255, 255, 255));
+   align-items: center;
+   border: 1px solid aqua;
+   margin: 50px;
+   border-radius: 24px;
+}
+.container_2.
+
+
