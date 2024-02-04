@@ -481,7 +481,6 @@ a:hover {
   height: 10vh;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 8px;
-  /* font-weight: bold; */
   padding-bottom: 1.5%;
   /* border: 1px solid darkmagenta; */
 }
@@ -498,7 +497,7 @@ a:hover {
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
-  font-size: 13px;
+  font-size: 12px;
 }
 .footer-term pre > img{
   height: 12px;
