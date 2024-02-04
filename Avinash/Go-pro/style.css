@@ -362,7 +362,8 @@ a:hover {
   height: 70vh;
   /* background-color: aqua; */
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 60px;
   align-items: center;
 }
 
@@ -448,7 +449,7 @@ a:hover {
 .low-frame {
   margin-top: .5rem;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
 }
