@@ -221,3 +221,82 @@ a:hover {
 
 /* two-cards end */
 
+
+/* People & brands */
+
+.PandB {
+  /* border: 1px solid rgb(0, 38, 255); */
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 5rem;
+  margin-bottom: 0;
+}
+
+.PandB .heading {
+  font-family: "Source Serif 4";
+  font-weight: lighter;
+  font-weight: 100;
+  font-size: large;
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+.PandB .brands-container {
+  /* border: 1px solid rgb(0, 38, 255); */
+  height: 80%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  /* gap: 1rem; */
+  margin: 0 auto;
+  padding: 20px;
+  
+}
+
+ .svg-box {
+  height: 11rem;
+  width: 10rem;
+  padding: 1rem;
+}
+
+/* People & brands */
+
+.attract-opp {
+  border: 1px solid red;
+  width: 100%;
+  height: 70vh;
+  padding: 20px;
+}
+
+.content-left  {
+  height: 300px;
+  width: 700px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.5rem;
+  gap: 1rem;
+} 
+
+.content-left .bold {
+  font-family: "Mona-Sans Bold", "Mona-Sans Bold Placeholder",  sans-serif;
+  font-size: 30px;
+}
+
+.content-left .none {
+  font-family: 'Mona-Sans',sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+  color: #060318;
+}
+
+
+
