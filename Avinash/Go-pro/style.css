@@ -355,4 +355,135 @@ a:hover {
 
 /* attract-opp and nums end */
 
+/* videocard-container */
+
+.videocard-container {
+  width: 100%;
+  height: 70vh;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.leftcard {
+  height: 450px;
+  width: 450px;
+  border-radius: 16px;
+  background: linear-gradient(90deg,#f8d5cf 0%,#F5C9EF 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.holder {
+  height: 410px;
+  width: 330px;
+  background-color: #fff;
+  box-shadow: 0 3px 15px #e0b8c999;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.frame {
+  height: 88%;
+  width: 88%;
+}
+
+.top-frame {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+
+.top-img img {
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  height: 45px;
+}
+
+.blackpro {
+  /* height: 1.75rem; */
+  border-radius: 5px;
+  /* width: 2.5rem; */
+  padding:0 2px;
+  text-align: center;
+  color: #fff;
+  background-color: black;
+  font-family: sans-serif;
+  position: relative;
+  right:40px;
+  bottom: 11px;
+}
+
+.hireme {
+  background-color: #ea4c89;
+  text-align: center;
+  padding:5px;
+  border-radius: 5px;
+  color: white;
+  position: relative;
+  bottom: 10px;
+}
+
+.mid-frame {
+  /* height: 90%; */
+  width: 90%;
+}
+
+.video-container video {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+  left: 15px;
+}
+
+.low-frame {
+  margin-top: .5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.eye, .heart {
+  font-weight: bold;
+  background-color: #E7E7E9;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.rightcard {
+  height: 350px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0 1rem ;
+}
+
+.rightcard div:first-child {
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+.rightcard div:nth-child(2) {
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #110f1b;
+}
+
+/* videocard-container end */
+
 
