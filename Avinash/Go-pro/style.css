@@ -43,6 +43,7 @@ html, body {
   display: flex;
   /* align-items: center; */
   justify-content: center;
+  margin-right: 4rem;
 }
 
 .navbar-list {
@@ -105,8 +106,10 @@ a:hover {
 }
 
 
+/* DRIBBBLE PRO */
+
 .dpro {
-  border: 1px solid rgb(0, 38, 255);
+  /* border: 1px solid rgb(0, 38, 255); */
   display: flex;
   position: relative;
   align-items: center;
@@ -126,12 +129,13 @@ a:hover {
 }
 
 .gdb {
-  font-family: "Mona-Sans Regular", sans-serif;
+  font-family: "Source Serif 4",;
   line-height: 53px;
   color: #060318;
   margin-bottom: .5rem;
   font-size: large;
   font-weight: 400;
+  font-size: 3rem;
 }
 
 .light-text {
@@ -139,6 +143,32 @@ a:hover {
   font-family: "Mona-Sans Regular", sans-serif;
   line-height: 31px;
   text-align: center;
+  font-size: 1rem;
 }
+
+.eightd {
+  color: #7779f5;
+  font-size: 1.5rem;
+  font-family: "Mona-Sans Bold", "Mona-Sans Bold Placeholder", sans-serif;;
+  margin-top: 1.5rem;
+}
+
+.ba {
+  padding: .5rem;
+  color: #6e6d7a;
+  margin-bottom: .2rem;
+}
+
+.gst {
+  display: flex;
+  /* padding: 15px 24px; */
+  padding: 1.2rem;
+  background-color: #0d0c22;
+  border-radius: 50px;
+  color: white;
+  font-weight: bold;
+}
+
+/* DRIBBBLE PRO end */
 
 
