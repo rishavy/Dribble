@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
 
-:root {
+/* :root {
   --SC1-color: #d145bf;
   --SC1-color: #7779f5;
   --SC1-color: #060318;
   --SC1--color: #6e6d7a;
-}
+} */
 
 * {
   padding: 0;
@@ -179,15 +179,16 @@ a:hover {
   width: 100%;
   height: 50vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 70px;
   align-items: center;
   font-family:"Mona-Sans Regular", sans-serif;
 
 }
 .card-left {
   background: linear-gradient(rgb(236, 251, 249) 0%, rgb(229, 252, 222) 100%);
-  height: 300px;
-  width: 500px;
+  height: 400px;
+  width: 600px;
   /* border: 1px solid green; */
   margin-left: 8rem;
   border-radius: 25px;
@@ -196,8 +197,8 @@ a:hover {
 .card-right {
   background: linear-gradient(rgb(255, 245, 252) 0%, rgb(245, 209, 235) 100%);
 
-  height: 300px;
-  width: 500px;
+  height: 400px;
+  width: 600px;
   /* border: 1px solid red; */
   margin-right: 8rem;
   border-radius: 25px;
@@ -205,8 +206,8 @@ a:hover {
 
 .two-cards .p1 {
   margin-top: 5rem;
-  font-size: 1.2rem;
-  padding: 1rem;
+  font-size: 1.5rem;
+  padding: 1.5rem;
   color: #060318;
 } 
 
@@ -217,6 +218,8 @@ a:hover {
 
 .p3 {
   padding: 1rem;
+  font-size: 1.3rem;
+  align-self: center;
 }
 
 /* two-cards end */
@@ -271,12 +274,13 @@ a:hover {
 
 /* attract-opp and nums */
 .attract-opp {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 100%;
   height: 100%;
   padding: 20px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 70px;
   align-items: center;
 }
 
@@ -305,15 +309,23 @@ a:hover {
 }
 
 .content-right {
-  height: 500px;
-  width: 400px;
-  border: 1px solid blue;
+  height: 400px;
+  width: 300px;
+  /* border: 1px solid blue; */
   margin-right: 4rem;
-  border-radius: 25px;
+  border-radius: 30px;
+  /* background-color: aqua; */
+}
+
+.content-right video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* object-position: center; */
 }
 
 .nums {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 100%;
   height: 100%;
   display: flex;
@@ -358,6 +370,7 @@ a:hover {
 /* videocard-container */
 
 .videocard-container {
+  border: 1px solid red;
   width: 100%;
   height: 70vh;
   /* background-color: aqua; */
