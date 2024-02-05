@@ -1,63 +1,253 @@
-*{
+* {
   margin: 0;
+  padding: 0;
   
-  margin-left: 40px;
-  margin-right: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  height: 100%;
+  width:100%
   
 }
+.main {
+  position: relative;
+}
 
- .main{  
+/* ---------- Home -> part 1 --------- */
+.header {
+  width: 100%;
+  height: 30vh;
+ 
+}
+/* ---------- Navbar --------- */
+.navbar {
+  width: 100%;
+  height: 15vh;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+.navbar-logo {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.navbar-list {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: calc(0.8rem + 1vw);
+}
+a {
+  display: flex;
+  font-size: 15px;
+  /* change the font */
+  font-family: Arial, Helvetica, sans-serif;
+  /* color: #0d0c22; */
+  color: rgb(91, 90, 90);
+  text-decoration: none;
+}
+a:hover {
+  /* color: #0d0c22b2; */
+  color: rgba(91, 90, 90, 0.8);
+  transition: all ease 0.5s;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  font-weight: bold;
+  background-color: #F4F5FB;
+}
+
+.navbar-right > .sing-up {
+  display: flex;
+  padding: 15px 20px;
+  background-color: #0d0c22;
+  border-radius: 50px;
+  color: white;
+  font-weight: bold;
+}
+.navbar-right > .sing-up:hover {
+  opacity: 0.8;
+  transition: ease 0.5s;
+}
+.navbar-right input {
+  padding: 13px 18px 13px 40px;
+  background-image: url("./assets/magnifying-glass.png");
+  background-size: 19px 19px;
+  background-position: 18px 14px;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  border-radius: 50px;
+  border: 0px;
+  font-size: 16px;
+}
+
+
+
+
+
+ /* Dribble-Hiring- flex box */
+ .Dribble-Hiring{  
+  align-items: center;
     display: flex;
+    flex: none;
     flex-direction: column;
-    align-items: center;   
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  
+    flex-wrap: nowrap;
+    gap: 24px;
+    height: min-content;
+    justify-content: center;
+    overflow: visible;
+    padding: 0 0 32px;
+    position: relative;
+    margin-left: 40px;
+    margin-right: 40px;
+     }
+     .Dribble-Hiring>.dribble{
+      color: #D145BF;  
+      font-size: 14px; font-weight: 800;
+     }
+     .designer{
+      font-size: 30px;
+      font-weight: 400;
+      letter-spacing: 1.5px;
+     }
+     .design-talent{
+      gap: 12px;
+      margin-left: 170px;
+      margin-right: 170px;
+       
      }
  
- 
- 
-
-
-
-
-/*For 1st & 2nd box[Start]*/
-div.flex_1{
-    display: flex;
-   
-   
-    text-align: center;
-    
-}
+         /*Post a Job & Get Started*/
+    div.flex-1{
+       align-content: center;
+       align-items: center;
+       display: flex;
+       flex-direction: row;
+       margin: 40px;
+       height: min-content;
+       
+       width: 80%;
+        overflow: visible;
+         padding: 0;
+         position: relative;  
+         background-color: #FFFFFF;
+            }
 
 /* First box[POST A JOB] */
-div.container_1{
-    display: flex;  
-   flex-direction: column; 
-   width: 500px;
-   height: 500px;
-   margin-left: 20px;
-  align-items: center;
-   border: 1px solid aqua;
-   margin: 50px;
+.post-a-job{
+  align-items: flex-start;
+  display: flex;
+  flex: 1 0 0px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 19px;
+  height: 450px;
+  justify-content: flex-start;
+  max-width: 450px;
+  min-width: 340px;
+  overflow: visible;
+  padding: 40px 40px 32px;
+  position: relative;
+  width: 1px;
+  border: 2px solid;
+  border-color: hsl(240 4.8% 95.9%);
    border-radius: 24px;
+}
+.job-board{
+  color: #3D3D4E;
+  font-size: 24px;
+}
+.day{
+  color: #3D3D4E;
+  font-size: 32px;
+  
+}
+.billed{
+  display: flex;
+  flex: wrap;
+}
+.billed>.material-symbols-outlined{
+  color: green;
 }
 
 /*Second box[Get Started]*/
-div.container_2{
-    display: flex;  
-   flex-direction: column;
-   width: 500px;
-   height: 700px; 
-   border-left-width: 2px;
-   border-top-width: 2px;
-   border-color: (234, 100, 217);
-   opacity: 1;
-   background-color: var(--token-9ab47ae7-3c69-4a9e-9ff8-993fc8bc0a0e, rgb(255, 255, 255));
-   align-items: center;
-   border: 1px solid aqua;
-   margin: 50px;
+div.Get-Started{
+  align-items: flex-start;
+  display: flex;
+  flex: 1 0 0px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 19px;
+  height: 600px;
+  justify-content: flex-start;
+  max-width: 600px;
+  min-width: 340px;
+  overflow: visible;
+  padding: 40px 40px 32px;
+  position: relative;
+  width: 1px;
+  border: 2px solid;
+  
+  border-color: rgb(234, 100, 217);
    border-radius: 24px;
 }
-.container_2.
+.creative{
+  line-height: 1.7em;
+  alignment: center;
+    color: rgb(13, 12, 34);
+}
+/*--1st video container--*/
+.video-container{
+  align-items: center;
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 80px;
+  height: min-content;
+  justify-content: flex-start;
+  max-width: 1200px;
+  overflow: visible;
+  padding: 0;
+  position: relative;
+  width: 83%;
+  
+}
+.video-flex{
+  align-items: center;
+    background: linear-gradient(90deg,#ecfbf9 0%,rgba(229,252,222,1) 100%);
+    border-radius: 16px;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 16px;
+    height: auto;
+    justify-content: center;
+    padding: 32px;
+    position: relative;
+    width: auto;
+}
+.video{
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  display: block;
+  object-fit: cover;
+  background-color: rgba(0, 0, 0, 0);
+  object-position: 50% 50%;
+  width: 30%;
+}
 
 
