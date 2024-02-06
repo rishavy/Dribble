@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   html,
@@ -297,3 +298,97 @@
     font-size: large;
     line-height: 1.8em;
  }
+
+
+ /* flag-part */
+
+.flag {
+  width: 100%;
+  height: 60vh;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+.flag-container {
+  height: 320px;
+  width: 945px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  cursor: pointer;
+}
+
+.flag-container .flag-left {
+  width: 60%;
+  height: 100%;
+  border: 2px solid rgb(231, 231, 233);
+  /* border: 1px solid red; */
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+  padding: 2rem;
+}
+
+.flag-text {
+  font-size: x-large;
+  line-height: 32px;
+  font-family: "Manrope", sans-serif;
+}
+
+.his-job {
+  font-family: "Manrope", sans-serif;
+}
+
+.flag-person {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.person-img img {
+  height: 40px;
+  border-radius: 20px;
+}
+
+.flag-container .flag-right {
+  width: 40%;
+  height: 100%;
+  background: linear-gradient(rgb(59, 143, 221) 0%, rgb(255, 197, 243) 100%);
+  opacity: 1;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flag-right .flag-holder {
+  height: 120px;
+  width: 120px;
+  position: absolute;
+}
+
+.flag-holder img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  object-position: center center;
+  object-fit: contain;
+  image-rendering: auto;
+  /* transition: all 5s ease-in-out; */
+}
+
+.flag-holder:hover {
+  transform: rotate(10deg);
+  height: 130px;
+  width: 130px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* flag-part end */
