@@ -1,260 +1,260 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-html,
-body {
-  height: 100%;
-  width: 100%;
-}
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
 
-.main {
-  position: relative;
-}
-/* ---------- Home -> part 1 --------- */
-.header {
-  width: 100%;
-  height: 30vh;
-}
-/* ---------- Navbar --------- */
-.navbar {
-  width: 100%;
-  height: 15vh;
-  /* border: 1px solid red; */
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 50px;
-}
-
-.navbar-logo {
-  display: flex;
-  /* align-items: center; */
-  justify-content: center;
-}
-
-.navbar-list {
-  display: flex;
-  gap: 40px;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  font-size: calc(0.8rem + 1vw);
-}
-a {
-  display: flex;
-  font-size: 15px;
-  /* change the font */
-  font-family: Arial, Helvetica, sans-serif;
-  /* color: #0d0c22; */
-  color: rgb(91, 90, 90);
-  text-decoration: none;
-}
-a:hover {
-  /* color: #0d0c22b2; */
-  color: rgba(91, 90, 90, 0.8);
-  transition: all ease 0.5s;
-}
-
-.navbar-right {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
-  font-weight: bold;
-}
-
-.navbar-right > .sing-up {
-  display: flex;
-  padding: 15px 20px;
-  background-color: #0d0c22;
-  border-radius: 50px;
-  color: white;
-  font-weight: bold;
-}
-.navbar-right > .sing-up:hover {
-  opacity: 0.8;
-  transition: ease 0.5s;
-}
-.navbar-right input {
-  padding: 13px 18px 13px 40px;
-  background-image: url("./assets/magnifying-glass.png");
-  background-size: 19px 19px;
-  background-position: 18px 14px;
-  background-repeat: no-repeat;
-  background-color: #f8f7f4;
-  border-radius: 50px;
-  border: 0px;
-  font-size: 16px;
-}
-
-/*--Dribble Hiring--*/
-.Dribble-Hiring{  
-  align-items: center;
-    display: flex;
-    gap: 24px;
+  .main {
+    position: relative;
+  }
+  /* ---------- Home -> part 1 --------- */
+  .header {
     width: 100%;
     height: 30vh;
-    flex-direction: column;
+  }
+  /* ---------- Navbar --------- */
+  .navbar {
+    width: 100%;
+    height: 15vh;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+  }
+
+  .navbar-logo {
+    display: flex;
+    /* align-items: center; */
     justify-content: center;
-    line-height: -2px;
-     }
-     .Dribble-Hiring>.dribble{
-      color: #D145BF;  
-      font-size: large; font-weight: 800;
-     }
-     .designer{
-      font-size: 30px;
-      font-weight: 400;
-      letter-spacing: 1.5px;
-     }
-     .design-talent{
-      gap: 12px;
-      margin-left: 170px;
-      margin-right: 170px;
-       
-     }
-          /*Post a Job & Get Started*/
-  div.flex-1{
+  }
+
+  .navbar-list {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: calc(0.8rem + 1vw);
+  }
+  a {
+    display: flex;
+    font-size: 15px;
+    /* change the font */
+    font-family: Arial, Helvetica, sans-serif;
+    /* color: #0d0c22; */
+    color: rgb(91, 90, 90);
+    text-decoration: none;
+  }
+  a:hover {
+    /* color: #0d0c22b2; */
+    color: rgba(91, 90, 90, 0.8);
+    transition: all ease 0.5s;
+  }
+
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-weight: bold;
+  }
+
+  .navbar-right > .sing-up {
+    display: flex;
+    padding: 15px 20px;
+    background-color: #0d0c22;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+  }
+  .navbar-right > .sing-up:hover {
+    opacity: 0.8;
+    transition: ease 0.5s;
+  }
+  .navbar-right input {
+    padding: 13px 18px 13px 40px;
+    background-image: url("./assets/magnifying-glass.png");
+    background-size: 19px 19px;
+    background-position: 18px 14px;
+    background-repeat: no-repeat;
+    background-color: #f8f7f4;
+    border-radius: 50px;
+    border: 0px;
+    font-size: 16px;
+  }
+
+  /*--Dribble Hiring--*/
+  .Dribble-Hiring{  
+    align-items: center;
       display: flex;
-      align-items: center;
+      gap: 24px;
+      width: 100%;
+      height: 30vh;
+      flex-direction: column;
       justify-content: center;
-      
-      height: 100vh;
-      flex-direction: row;
-       margin: 80px;
-      position: relative;
-      
-      gap: 50px;
-      width: 80%;
-     
+      line-height: -2px;
+       }
+       .Dribble-Hiring>.dribble{
+        color: #D145BF;  
+        font-size: large; font-weight: 800;
+       }
+       .designer{
+        font-size: 30px;
+        font-weight: 400;
+        letter-spacing: 1.5px;
+       }
+       .design-talent{
+        gap: 12px;
+        margin-left: 170px;
+        margin-right: 170px;
+         
+       }
+            /*Post a Job & Get Started*/
+    div.flex-1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        height: 100vh;
+        flex-direction: row;
+         margin: 80px;
+        position: relative;
+        
+        gap: 50px;
+        width: 80%;
        
-           }
-
-/* First box[POST A JOB] */
-.post-a-job{
- align-items: flex-start;
- display: flex;
- flex: 1.2 0 0px;
- flex-direction: column;
- flex-wrap: nowrap;
- gap: 19px;
- height: 550px;
- justify-content: flex-start;
- /* max-width: 450px; */
- /* min-width: 340px; */
- overflow: visible;
- padding: 40px 40px 32px;
- position: relative;
- width: 1px;
- border: 2px solid;
- border-color: hsl(240 4.8% 95.9%);
-  border-radius: 24px;
-}
-.job-board{
- color: #3D3D4E;
- font-size: 24px;
-}
-.day{
- color: #3D3D4E;
- font-size: 32px;
+         
+             }
  
-}
-.billed{
- display: flex;
- flex: wrap;
-}
-.billed>.material-symbols-outlined{
- color: green;
-}
-.post{
-  display: flex;
-  padding: 15px 20px;
-  background-color: white;
-  border: 1px solid black;
-  border-radius: 50px;
-  color: #0d0c22;
-  font-weight: bold;
-  font-size: large;
-  align-items: center;
-  justify-content: center;
-  width: 50vh;
-}
-
-/*Second box[Get Started]*/
-div.Get-Started{
- align-items: flex-start;
- display: flex;
- flex: 1 0 0px;
- flex-direction: column;
- flex-wrap: nowrap;
- gap: 19px;
- height: 600px;
- justify-content: flex-start;
- max-width: 600px;
- min-width: 340px;
- overflow: visible;
- padding: 40px 40px 32px;
- position: relative;
- width: 1px;
- border: 2px solid;
+ /* First box[POST A JOB] */
+ .post-a-job{
+   align-items: flex-start;
+   display: flex;
+   flex: 1.2 0 0px;
+   flex-direction: column;
+   flex-wrap: nowrap;
+   gap: 19px;
+   height: 550px;
+   justify-content: flex-start;
+   /* max-width: 450px; */
+   /* min-width: 340px; */
+   overflow: visible;
+   padding: 40px 40px 32px;
+   position: relative;
+   width: 1px;
+   border: 2px solid;
+   border-color: hsl(240 4.8% 95.9%);
+    border-radius: 24px;
+ }
+ .job-board{
+   color: #3D3D4E;
+   font-size: 24px;
+ }
+ .day{
+   color: #3D3D4E;
+   font-size: 32px;
+   
+ }
+ .billed{
+   display: flex;
+   flex: wrap;
+ }
+ .billed>.material-symbols-outlined{
+   color: green;
+ }
+ .post{
+    display: flex;
+    padding: 15px 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50px;
+    color: #0d0c22;
+    font-weight: bold;
+    font-size: large;
+    align-items: center;
+    justify-content: center;
+    width: 50vh;
+ }
  
- border-color: rgb(234, 100, 217);
-  border-radius: 24px;
-}
-.button-started{
-  display: flex;
-  padding: 15px 20px;
-  background-color: #060318;
-  border-radius: 50px;
-  color: #FFFFFF;
-  font-weight: bold;
-  font-size: large;
-  align-items: center;
-  justify-content: center;
-  width: 40vh;
-}
+ /*Second box[Get Started]*/
+ div.Get-Started{
+   align-items: flex-start;
+   display: flex;
+   flex: 1 0 0px;
+   flex-direction: column;
+   flex-wrap: nowrap;
+   gap: 19px;
+   height: 600px;
+   justify-content: flex-start;
+   max-width: 600px;
+   min-width: 340px;
+   overflow: visible;
+   padding: 40px 40px 32px;
+   position: relative;
+   width: 1px;
+   border: 2px solid;
+   
+   border-color: rgb(234, 100, 217);
+    border-radius: 24px;
+ }
+ .button-started{
+    display: flex;
+    padding: 15px 20px;
+    background-color: #060318;
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: large;
+    align-items: center;
+    justify-content: center;
+    width: 40vh;
+ }
 
+  
+ /*--video-container-1 && Start your search--    [START] */
+ .video-container-1{
+    /* border: 5px solid red; */
+   display: flex;
+   width: 180vh;
+   height: 63vh;
+   position: relative;
+   left: 80px;
+   gap: 35px;
+ }
+ .mute-video{
+    object-fit: cover;
+    background-color: aqua;
+    padding-bottom: 50px;
+    border-radius: 20px;
+ }
 
-/*--video-container-1 && Start your search--    [START] */
-.video-container-1{
-  /* border: 5px solid red; */
- display: flex;
- width: 180vh;
- height: 63vh;
- position: relative;
- left: 80px;
- gap: 35px;
-}
-.mute-video{
-  object-fit: cover;
-  background-color: aqua;
-  padding-bottom: 50px;
-  border-radius: 20px;
-}
-
-/*--Start your search--*/
-.search>h2{
-  columns: #3D3D4E;
-  font-size: 32px;
-  margin-top: 20px;
-  padding: 10px;
-}
-.search>p{
-  font-size: large;
-  line-height: 1.8em;
-}
-.button{
-  display: flex;
-  padding: 15px 20px;
-  background-color: #0d0c22;
-  border-radius: 50px;
-  color: white;
-  font-weight: bold;
-  font-size: large;
-  align-items: center;
-  justify-content: center;
-  width: 40vh;
-}/*--video-container-1 && Start your search--  [END]*/
+ /*--Start your search--*/
+ .search>h2{
+    columns: #3D3D4E;
+    font-size: 32px;
+    margin-top: 20px;
+    padding: 10px;
+ }
+ .search>p{
+    font-size: large;
+    line-height: 1.8em;
+ }
+ .button{
+    display: flex;
+    padding: 15px 20px;
+    background-color: #0d0c22;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    align-items: center;
+    justify-content: center;
+    width: 40vh;
+ }/*--video-container-1 && Start your search--  [END]*/
