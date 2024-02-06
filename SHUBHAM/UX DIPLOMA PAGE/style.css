@@ -1,0 +1,235 @@
+.pic-heading{
+    text-align: center;
+}
+.heading{
+    text-align: center;
+}
+.heading-title{
+    text-align: center;
+    margin-top: 50px;
+}
+.request-info{
+    display: flex;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 50px;
+    /* justify-content: center; */
+}
+.request-info button{
+    background-color: white;
+    /* border: none; */
+    padding: 16px 24px;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.request-info-img{
+    margin-left: 20px;
+}
+.request-info img{
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+}
+.request-info p{
+    margin-left: 20px;
+}
+.reviews{
+    display: flex;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 500px;
+    /* justify-content: space-around; */
+    
+}
+.individual-review a{
+    text-decoration: none;
+    color: black;
+    margin-right: 80px;
+}
+.review-item{
+    display: flex;
+    align-items: center;
+}
+.review-item img{
+    height: 30px;
+    width: 100px;
+}
+.duration{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    /* margin-left: 400px; */
+}
+.duration-content{
+    margin-right: 20px;
+}
+.duration-content p span{
+    text-decoration: line-through;
+}
+.university-credit{
+    margin-left: 300px;
+}
+.university-credit-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.university-credit img{
+    height: 150px;
+    width: 150px;
+    /* margin-top: 100px; */
+}
+.img-with-name{
+    display: flex;
+    /* text-align: center; */
+}
+.img-with-name img{
+    height: 80px;
+    width: 80px;
+    border-radius: 20px;
+}
+.university-credit-content-right img{
+    margin-left: 200px;
+    margin-right: 100px;
+    height: 300px;
+    width: 500px;
+    rotate: -20deg;
+}
+.first-section{
+    margin-top: 100px;
+    display: flex;
+    margin-left: 300px;
+    /* justify-content: space-between; */
+}
+.first-section img{
+    height: 200px;
+    margin-left: 100px;
+}
+.social-site-pic img{
+    margin-left: 300px;
+    width: 1000px;
+}
+.testimonials{
+    display: flex;
+    margin-left: 200px;
+}
+.testimonial-content{
+    margin-right: 20px;
+}
+.courses{
+    margin-top: 100px;
+}
+.course-heading{
+    text-align: center;
+}
+.course-container{
+    display: flex;
+    margin-right: 40px;
+    margin-left: 20px;
+}
+.course-content{
+    text-align: center;
+}
+.course-content img{
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.community{
+    margin-top: 150px;
+}
+.community-header{
+    text-align: center;
+}
+.community-container{
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-around; */
+}
+.community-content{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+}
+.community-content img{
+    height: 200px;
+    width: 500px;
+}
+.student-testimonials{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.student-tstimonials-right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 200px;
+}
+.student-testimonials-content{
+    align-items: center;
+}
+.student-tstimonials-right img{
+    height: 300px;
+    width: 200px;
+}
+.student-testimonials-content-para{
+    color: #aa061d;
+}
+.mentor-details{
+    margin-top: 100px;
+}
+.mentor-header{
+    text-align: center;
+}
+.curiculum{
+    margin-left: 30px;
+    margin-top: 100px;
+}
+.module-details{
+    display: grid;
+    flex: none;
+    gap: 24px;
+    grid-auto-rows: min-content;
+    grid-template-columns: repeat(3,minmax(1px,1fr));
+    grid-template-rows: repeat(2,min-content);
+    /* height: 772px; */
+    justify-content: center;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+}
+.module-number{
+    color: #1c5eff;
+}
+.request-info-details{
+    text-align: center;
+    margin-top: 50px;
+}
+.request-info-details button{
+    background-color: #060318;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.student-reviews{
+    text-align: center;
+    margin-top: 100px;
+}
+.review-heading video{
+    height: 500px;
+    width: 500px;
+}
+.cohort-heading{
+    text-align: center;
+}
+.cohort-announcemet{
+    color: #1c5eff;
+}
+
