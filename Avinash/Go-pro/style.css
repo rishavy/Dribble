@@ -16,6 +16,7 @@
 html, body {
   width: 100%;
   height: 100%;
+  overflow-x: hidden;
 }
 
 .main {
@@ -507,7 +508,7 @@ a:hover {
 .professional-brand {
   height: 100vh;
   width: 100%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -562,7 +563,7 @@ a:hover {
 .flag {
   width: 100%;
   height: 60vh;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -768,6 +769,7 @@ a:hover {
 }
 
 .pogo-small-s {
+  margin-top: 1rem;
   font-size: 13px;
   text-align: center;
   color: #6e6d7a;
