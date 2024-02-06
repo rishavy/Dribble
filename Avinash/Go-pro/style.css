@@ -370,7 +370,7 @@ a:hover {
 /* videocard-container */
 
 .videocard-container {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 100%;
   height: 70vh;
   /* background-color: aqua; */
@@ -499,5 +499,293 @@ a:hover {
 }
 
 /* videocard-container end */
+
+/* professional-brand */
+
+.professional-brand {
+  height: 100vh;
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.head-div {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.head-div div > h2 {
+  font-family: sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 34px;
+  color: #3d3d4e;
+  margin: 1rem;
+}
+
+.head-div div > p {
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 31px;
+  color: #060318;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
+
+.vid-div {
+  height: 70%;
+  width: 80%;
+  /* border: 1px solid green; */
+}
+
+.vid-div video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* professional-brand */
+
+/* flag-part */
+
+.flag {
+  width: 100%;
+  height: 60vh;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+.flag-container {
+  height: 320px;
+  width: 945px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  cursor: pointer;
+}
+
+.flag-container .flag-left {
+  width: 60%;
+  height: 100%;
+  border: 2px solid rgb(231, 231, 233);
+  /* border: 1px solid red; */
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+  padding: 2rem;
+}
+
+.flag-text {
+  font-size: 28px;
+  line-height: 32px;
+  font-family: "Manrope", sans-serif;
+}
+
+.his-job {
+  font-family: "Manrope", sans-serif;
+}
+
+.flag-person {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.person-img img {
+  height: 40px;
+}
+
+.flag-container .flag-right {
+  width: 40%;
+  height: 100%;
+  background: linear-gradient(rgb(59, 143, 221) 0%, rgb(255, 197, 243) 100%);
+  opacity: 1;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flag-right .flag-holder {
+  height: 120px;
+  width: 120px;
+  position: absolute;
+}
+
+.flag-holder img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  object-position: center center;
+  object-fit: contain;
+  image-rendering: auto;
+  /* transition: all 5s ease-in-out; */
+}
+
+.flag-holder:hover {
+  transform: rotate(10deg);
+  height: 130px;
+  width: 130px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* flag-part end */
+
+
+/* pink-card */
+
+.pink-card {
+  border: 1px solid green;
+  height: auto;
+  /* height: min-content; */
+  width: 100%;
+  background: linear-gradient(72deg,#f8d5d0 0%,#f5c9ef 100%);
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px; */
+  /* padding: 80px 40px 120px; */
+}
+
+.pink-card-top p {
+  font-family: "Source Serif 4", "Source Serif 4 Placeholder", serif;
+  font-size: 60px;
+  line-height: 66px;
+  font-weight: 600;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.white-container {
+  /* border: 1px solid black; */
+  height: 100%;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+
+.pink-card-bottom {
+  /* border: 1px solid blue; */
+  border-radius: 16px;
+  background-color: white;
+  height: auto;
+  width: 50%;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  padding: 2rem 2.5rem;
+  gap: 1rem;
+  margin-bottom: 5rem;
+}
+
+.pink-card-bottom .pogo {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38px;
+}
+
+.pink-card-bottom .nick {
+  font-size: 19px;
+  line-height: 30px;
+  color: #060318;
+}
+
+.pink-card-bottom .pogo-small {
+  color: #6e6d7a;
+  font-size: 16px;
+}
+
+.checklist {
+  width: 100%;
+  height: auto;
+  /* border: 1px solid green; */
+  padding: 1rem 0;
+}
+
+.list {
+  /* background-color: #7779f5; */
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+  margin: .5rem 0;
+  font-size: 18px;
+
+}
+
+.gst-2 {
+  display: flex;
+  /* padding: 15px 24px; */
+  padding: 1.2rem;
+  background-color: #0d0c22;
+  border-radius: 50px;
+  font-weight: bold;
+  width: 100%;
+  justify-content: center;
+}
+
+.gst-2 a {
+  color: white;
+}
+
+
+.pink-card-footer {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+}
+
+.pogo-ud {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #060318;
+  font-size: 16px;
+}
+
+.pogo-small-s {
+  font-size: 13px;
+  text-align: center;
+  color: #6e6d7a;
+}
+
+/* pink-card-end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  position: relative;
+}
+/* ---------- Home -> part 1 --------- */
+.header {
+  width: 100%;
+  height: 90vh;
+}
+/* ---------- Navbar --------- */
+.navbar {
+  width: 100%;
+  height: 15vh;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+.navbar-logo {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  cursor: pointer;
+}
+
+.navbar-list {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: calc(0.8rem + 1vw);
+}
+a {
+  display: flex;
+  font-size: 15px;
+  /* change the font */
+  font-family: Arial, Helvetica, sans-serif;
+  /* color: #0d0c22; */
+  color: rgb(91, 90, 90);
+  text-decoration: none;
+}
+a:hover {
+  /* color: #0d0c22b2; */
+  color: rgba(91, 90, 90, 0.8);
+  transition: all ease 0.5s;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  font-weight: bold;
+}
+
+.navbar-right > .sing-up {
+  display: flex;
+  padding: 15px 20px;
+  background-color: #0f0e29;
+  border-radius: 50px;
+  color: white;
+  font-weight: bold;
+}
+.navbar-right > .sing-up:hover {
+  opacity: 0.8;
+  transition: ease 0.5s;
+}
+.navbar-right input {
+  padding: 13px 18px 13px 40px;
+  background-image: url("./assets/magnifying-glass.png");
+  background-size: 19px 19px;
+  background-position: 18px 14px;
+  background-repeat: no-repeat;
+  background-color: #f8f7f4;
+  border-radius: 50px;
+  border: 0px;
+  font-size: 16px;
+}
+
+/* ---------- Work Part --------- */
+.work {
+  /* border: 1px solid #11f2fa; */
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 75vh;
+}
+.work-part .hero {
+  position: relative;
+  top: -2vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 77px;
+  font-weight: normal;
+  color: #0d0c22;
+  letter-spacing: 1px;
+  line-height: 78px;
+}
+.work p {
+  position: relative;
+  display: flex;
+  top: 8px;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  color: #7c7c7c;
+  line-height: 30px;
+}
+.work button {
+  position: relative;
+  top: 5vh;
+  padding: 18px 25px;
+  font-size: 14px;
+  background-color: #0d0c22;
+  border-radius: 50px;
+  font-weight: bold;
+  color: #fff;
+}
+.work button:hover {
+  opacity: 0.8;
+  transition: ease 0.5s;
+  cursor: pointer;
+}
+
+/* --------------- part 2 ------------- */
+.part2 {
+  width: 100%;
+  height: 580vh;
+  border: 1px solid blue;
+}
+.part2 .bt button {
+  position: relative;
+  /* top: 6vh; */
+  padding: 8px 15px;
+  font-size: 14px;
+}
+.bt1 {
+  margin-left: 7%;
+  background-color: #f1f1f1;
+  border-radius: 50px;
+  border: 0.5px solid #b9b9b9;
+  color: #0d0c22;
+}
+.bt1:hover {
+  color: #636363;
+  transition: ease 0.5s;
+}
+.bt2 {
+  background-color: #ffffff;
+  border-radius: 50px;
+  border: 0px;
+  color: #353535;
+}
+.bt2:hover {
+  color: #5f5f5f;
+  transition: ease 0.5s;
+}
+
+.part2 input {
+  padding: 14px 40% 14px 55px;
+  background-image: url("../assets/magnifying-glass.png");
+  background-size: 19px 19px;
+  background-position: 25px 15px;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  border: 2px solid #ececec;
+  font-size: 17px;
+  margin-left: 7%;
+  margin-top: 40px;
+}
+.part2 input:hover {
+  border-color: rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 0 4px rgb(234 100 217 / 10%);
+}
+.recent {
+  margin-left: 7%;
+  margin-top: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ------------ designs ----------- */
+.designs {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  top: 8vh;
+  left: 5%;
+  width: 67%;
+  height: 91%;
+  border: 1px solid black;
+  padding: 0px 22px;
+}
+/* ---------- data ------------ */
+.data {
+  width: 98%;
+  height: 85px;
+  border-radius: 10px;
+  border: 1px solid orangered;
+  overflow: hidden;
+}
+
+.part2 i {
+    position: relative;
+    padding: 10px;
+    margin-left: 35%;
+    font-size: 40px;
+    background-color: #d1d1d1;
+    color: #fff;
+    border-radius: 50%;
+    top: 15vh;
+  }
+  .part2 i:hover {
+    background-color: #c2c2c2;
+    cursor: pointer;
+  }
