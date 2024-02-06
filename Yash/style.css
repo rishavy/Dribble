@@ -114,7 +114,8 @@
         gap: 12px;
         margin-left: 170px;
         margin-right: 170px;
-         
+        text-align: center; 
+        font-size: large;
        }
             /*Post a Job & Get Started*/
     div.flex-1{
@@ -143,9 +144,7 @@
    gap: 19px;
    height: 550px;
    justify-content: flex-start;
-   /* max-width: 450px; */
-   /* min-width: 340px; */
-   overflow: visible;
+   font-size: large;
    padding: 40px 40px 32px;
    position: relative;
    width: 1px;
@@ -180,7 +179,11 @@
     font-size: large;
     align-items: center;
     justify-content: center;
-    width: 50vh;
+    width: 60vh;
+ }
+ #cancel{ 
+  color: #6E6D7A; 
+  text-align: center;
  }
  
  /*Second box[Get Started]*/
@@ -200,7 +203,7 @@
    position: relative;
    width: 1px;
    border: 2px solid;
-   
+   font-size: large;
    border-color: rgb(234, 100, 217);
     border-radius: 24px;
  }
@@ -214,13 +217,12 @@
     font-size: large;
     align-items: center;
     justify-content: center;
-    width: 40vh;
+    width: 60vh;
  }
 
   
  /*--video-container-1 && Start your search--    [START] */
  .video-container-1{
-    /* border: 5px solid red; */
    display: flex;
    width: 180vh;
    height: 63vh;
@@ -228,7 +230,7 @@
    left: 80px;
    gap: 35px;
  }
- .mute-video{
+ .video-1{
     object-fit: cover;
     background-color: aqua;
     padding-bottom: 50px;
@@ -236,6 +238,9 @@
  }
 
  /*--Start your search--*/
+ .search{
+  text-align: start;
+ }
  .search>h2{
     columns: #3D3D4E;
     font-size: 32px;
@@ -258,3 +263,37 @@
     justify-content: center;
     width: 40vh;
  }/*--video-container-1 && Start your search--  [END]*/
+
+
+  /*--video-container-2 && Post your job--    [START] */
+  .video-container-2{
+    /* border: 5px solid red;  */
+   display: flex;
+   width: 180vh;
+   height: 63vh;
+   position: relative;
+   left: 80px;
+   gap: 35px;
+ }
+ .video-2{
+  width: 550px;
+  object-fit: cover;
+  background: linear-gradient(90deg,#fcd0ba 0%,#f6d8fb 100%);
+  padding-bottom: 50px;
+  border-radius: 20px;
+  
+
+}
+.search-2{
+  text-align: start;
+ }
+ .search-2>h2{
+    columns: #3D3D4E;
+    font-size: 32px;
+    margin-top: 20px;
+    padding: 6px;
+ }
+ .search-2>p{
+    font-size: large;
+    line-height: 1.8em;
+ }
