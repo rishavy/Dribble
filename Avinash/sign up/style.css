@@ -1,0 +1,143 @@
+*,
+* ::before,
+* ::after {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-y: hidden;
+}
+
+.main-container {
+  height: 100vh;
+  width: auto;
+  /* background-color: aqua; */
+  display: flex;
+  gap: 5.5rem;
+}
+
+.side-bar {
+  height: 100%;
+  width: 400px;
+  /* background-color: blue; */
+  /* border: 1px solid red; */
+}
+
+.sidebar-logo {
+  position: absolute;
+  left: 30px;
+  top: 40px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.sidebar-logo a {
+  color: white;
+}
+
+.sidebar-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main-bar {
+  height: 100%;
+  width: 80%;
+}
+
+.main-bar .content {
+  height: 500px;
+  width: 450px;
+  /* border: 1px solid black; */
+  margin: 210px 0;
+}
+
+.content .head h1 {
+  margin-top: 0;
+  font-size: 28px;
+}
+
+.mid {
+  /* margin-top: 1rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.btn-svg {
+  height: 3.5rem;
+  width: 100%;
+  border-radius: 25px;
+  border: none;
+  font-weight: bold;
+  line-height: 18px;
+  padding: 0;
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  transition: 0.2s ease;
+}
+
+.btn-svg .icon {
+  margin-right: 3px;
+}
+
+.btn-svg:hover {
+  /* border: 1px solid gray; */
+  cursor: pointer;
+  background-color: #6e6d7a;
+  border: #6e6d7a;
+}
+
+.btn-svg-2 {
+  height: 3.5rem;
+  width: 100%;
+  border-radius: 25px;
+  border: none;
+  font-weight: bold;
+  line-height: 18px;
+  padding: 0;
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  transition: 0.2s ease-in-out;
+}
+
+.btn-svg-2:hover {
+  border: 0.5px solid rgb(187, 180, 180);
+  cursor: pointer;
+}
+
+.small {
+  color: #6e6d7a;
+}
+
+.mid .small-2 {
+  margin-top: 50px;
+  color: #6e6d7a;
+  font-size: 13px;
+  text-align: center;
+}
+
+.mid .small-2 a {
+  color: #6e6d7a;
+  font-size: 13px;
+}
+
+.small-3  {
+  color: #6e6d7a;
+  font-size: 14px;
+}
+
+.small-3 a {
+  color: #6e6d7a;
+  font-size: 14px;
+}
