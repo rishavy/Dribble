@@ -12,7 +12,6 @@ Followers & Following: Build a network of followers and follow other designers w
 
 Technologies Used:<br>
 HTML5/CSS3: For structuring and styling the web pages.<br>
-jQuery: Used to make functions more structured.
 
 Website Images:
 
