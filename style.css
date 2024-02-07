@@ -162,13 +162,13 @@ a:hover {
 .part2 {
   position: relative;
   width: 100%;
-  height: 65vh;
-  border: 1px solid red;
+  height: 75vh;
+  /* border: 1px solid red; */
 }
 .center {
   position: relative;
   width: 100%;
-  height: 50vh;
+  height: 60vh;
   /* border: 1px solid rgb(253, 0, 211); */
   display: inline-block;
   white-space: nowrap;
@@ -180,6 +180,7 @@ a:hover {
   width: 100%;
   height: 100%;
   /* border: 1px solid blue; */
+  background-color: #f7f7f7d7;
   display: inline-block;
   white-space: nowrap;
   overflow-x: auto;
@@ -207,9 +208,19 @@ a:hover {
     transform: translateX(-100%);
   }
 }
-/* .part2 .center .center-part::-webkit-scrollbar{
-    display: none;
-} */
+.center-part::-webkit-scrollbar{
+    /* display: none; */
+    height: 10px;
+    /* background: linear-gradient(transparent,#fccbebfa); */
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(transparent,#707070fa);
+  border-radius: 50px;
+}
+::-webkit-scrollbar:hover{
+  background: linear-gradient(transparent,#e29ecb85);
+}
+
 .div img {
   width: 100%;
   height: 100%;
