@@ -1,3 +1,74 @@
+.navbar {
+    width: 100%;
+    height: 15vh;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4px;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .navbar-list {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: calc(0.8rem + 1vw);
+  }
+  a {
+    display: flex;
+    font-size: 15px;
+    /* change the font */
+    font-family: Arial, Helvetica, sans-serif;
+    /* color: #0d0c22; */
+    color: rgb(91, 90, 90);
+    text-decoration: none;
+  }
+  a:hover {
+    /* color: #0d0c22b2; */
+    color: rgba(91, 90, 90, 0.8);
+    transition: all ease 0.5s;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-weight: bold;
+  }
+  
+  .navbar-right > .sign-up {
+    display: flex;
+    padding: 15px 20px;
+    background-color: #0f0e29;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+  }
+  .navbar-right > .sign-up:hover {
+    opacity: 0.8;
+    transition: ease 0.5s;
+  }
+  .navbar-right input {
+    padding: 13px 18px 13px 40px;
+    background-image: url(".../assets/magnifying-glass.png");
+    background-size: 19px 19px;
+    background-position: 18px 14px;
+    background-repeat: no-repeat;
+    background-color: #ccd1e436;
+    border-radius: 50px;
+    border: 0px;
+    font-size: 16px;
+  }
 .workshop-button{
     background-color: #f6d9fb;
     border: none;
@@ -6,6 +77,7 @@
     text-align: center;
     font-size: 16px;
     border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .section-1{
     display: flex;
@@ -13,10 +85,22 @@
     justify-content: space-around;
     letter-spacing: .5px;
 }
+.section-1 h1{
+    color: #060318;
+    font-size: 60px;
+    /* font-weight: bold; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section-1 p{
+    color: #060318;
+    font-size: 18px;
+    /* font-weight: bold; */
+    font-family: Arial, Helvetica, sans-serif;
+}
 .form{
     border: 1px solid grey;
     border-radius: 20px;
-    padding: 20px;
+    padding: 20px 30px;
 }
 .form-button{
     background-color: #0D0C22;
@@ -51,7 +135,24 @@
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 100px;
-    /* cursor: pointer; */
+    cursor: pointer;
+}
+.container-material h3{
+    color: #3d3d4e;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-material .namings{
+    color: #060318;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.container-material .contents{
+    color: #060318;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: bold; */
 }
 .links{
     text-decoration: none;
@@ -63,3 +164,159 @@
     border: none;
     border-radius: 20px;
 }
+.category {
+    width: 100%;
+    height: 50vh;
+    /* border: 1px solid rgb(25, 0, 253); */
+}
+.category .slid {
+    position: relative;
+    top: 8vh;
+    display: inline-block;
+    width: 100%;
+    height: 50vh;
+    /* border: 1px solid aqua; */
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    /* overflow: visible; */
+}
+.category .slid .box {
+    display: inline-block;
+    width: 250px;
+    height: 100%;
+    /* border: 1px solid red; */
+    border-radius: 7px;
+    animation-name: box-anime;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.category .slid::-webkit-scrollbar {
+    display: none;
+}
+@keyframes box-anime {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+}
+.category .slid:hover .box {
+    animation-play-state: paused;
+    cursor: pointer;
+}
+.box img {
+    height: 86%;
+    width: 93%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+.box span {
+    display: flex;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  /* Home -> footer */
+.footer {
+    width: 100%;
+    height: 34vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.footer-head {
+    top: 5vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+.footer-logo {
+    /* border: 1px solid red; */
+    margin-left: 5%;
+    padding: 0px;
+}
+.footer-logo img {
+    width: 50%;
+    height: 10%;
+    cursor: pointer;
+    /* border: 1px solid red; */
+}
+.footer-list {
+    width: 60%;
+    height: 100%;
+    /* border: 1px solid skyblue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 0px 5px 0px 5px;
+    overflow: hidden;
+    margin-left: -8%;
+}
+.footer-icons {
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+    /* border:1px solid rgb(212, 0, 255); */
+}
+  .footer-icons img {
+    height: 18px;
+    cursor: pointer;
+    margin: 8px;
+}
+  /* -------Footer-botttom-------- */
+.footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 10vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    padding-bottom: 1.5%;
+    margin-top: 20px;
+    /* border: 1px solid darkmagenta; */
+}
+.footer-term {
+    width: 30%;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    color: #2c2c2c;
+    gap: 16px;
+    /* border: 1px solid orangered; */
+}
+.footer-term pre {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+}
+.footer-term pre > img {
+    height: 12px;
+    width: 12px;
+}
+.footer-space {
+    width: 38%;
+    height: 4vh;
+    /* border: 1px solid black; */
+}
+.footer-tags {
+    width: 33%;
+    height: 4vh;
+    display: flex;
+    gap: 14.5px;
+    /* border: 1px solid green; */
+}
+
