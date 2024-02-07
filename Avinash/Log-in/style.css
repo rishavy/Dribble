@@ -137,3 +137,10 @@ a {
   margin-bottom: 40px;
   color: #6e6d7a;
 }
+
+@media only screen and (max-width: 768px)  {
+  .sidebar {
+    height: 0;
+    width: 0;
+  }
+}
