@@ -20,10 +20,10 @@ Welcome to the Dribbble Clone project! This project aims to replicate the functi
 - [Home](https://rishavy.github.io/Dribble/)
 - [Find talent](https://rishavy.github.io/Dribble/Yash/index.html)
 - [Inspiration](https://rishavy.github.io/Dribble/Inspiration/inspiration.html)
-- Learn design-[UX Diploma](https://rishavy.github.io/Dribble/SHUBHAM/UX%20DIPLOMA%20PAGE/index.html),[Live interactive workshops](https://rishavy.github.io/Dribble/SHUBHAM/index.html)
+- Learn design-[UX Diploma](https://rishavy.github.io/Dribble/SHUBHAM/UX%20DIPLOMA%20PAGE/index.html) / [Live interactive workshops](https://rishavy.github.io/Dribble/SHUBHAM/index.html)
 - [Jobs](https://rishavy.github.io/Dribble/Jobs/jobs.html)
 - [Go Pro](https://rishavy.github.io/Dribble/Avinash/index.html)
-- [Login](https://rishavy.github.io/Dribble/Avinash/Log-in/login.html)/[Sign-up](https://rishavy.github.io/Dribble/Avinash/sign%20up/signup.html)
+- [Login](https://rishavy.github.io/Dribble/Avinash/Log-in/login.html) / [Sign-up](https://rishavy.github.io/Dribble/Avinash/sign%20up/signup.html)
 
 ## Website Images
 
