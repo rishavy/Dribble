@@ -24,7 +24,7 @@ Explore the clone to discover stunning designs, engage with the creative communi
 
 ### Go Pro Page
 
-![Alt text](<Screenshot-1.png>) ![Alt text](<Screenshot (219).png>) ![Alt text](<Screenshot (220).png>) ![Alt text](<Screenshot (221).png>) ![Alt text](<Screenshot (222).png>) ![Alt text](<Screenshot (223).png>) 
+
 
 
 
