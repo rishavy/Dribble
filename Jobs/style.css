@@ -67,7 +67,7 @@ a:hover {
   font-weight: bold;
 }
 
-.navbar-right > .sing-up {
+.navbar-right > .sign-up {
   display: flex;
   padding: 15px 20px;
   background-color: #0f0e29;
@@ -75,17 +75,17 @@ a:hover {
   color: white;
   font-weight: bold;
 }
-.navbar-right > .sing-up:hover {
+.navbar-right > .sign-up:hover {
   opacity: 0.8;
   transition: ease 0.5s;
 }
 .navbar-right input {
   padding: 13px 18px 13px 40px;
-  background-image: url("./assets/magnifying-glass.png");
+  background-image: url("../assets/magnifying-glass.png");
   background-size: 19px 19px;
   background-position: 18px 14px;
   background-repeat: no-repeat;
-  background-color: #f8f7f4;
+  background-color: #ccd1e436;
   border-radius: 50px;
   border: 0px;
   font-size: 16px;
@@ -121,6 +121,7 @@ a:hover {
   top: 8px;
   justify-content: center;
   align-items: center;
+  text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: normal;
   font-size: 20px;
@@ -222,17 +223,113 @@ a:hover {
   overflow: hidden;
 }
 
-.part2 i {
-    position: relative;
-    padding: 10px;
-    margin-left: 35%;
-    font-size: 40px;
-    background-color: #d1d1d1;
-    color: #fff;
-    border-radius: 50%;
-    top: 15vh;
-  }
-  .part2 i:hover {
-    background-color: #c2c2c2;
-    cursor: pointer;
-  }
+.part2 .next i {
+  position: relative;
+  padding: 10px;
+  margin-left: 35%;
+  font-size: 40px;
+  background-color: #d1d1d1;
+  color: #fff;
+  border-radius: 50%;
+  top: 15vh;
+}
+.part2 .next i:hover {
+  background-color: #c2c2c2;
+  cursor: pointer;
+}
+
+/* -------- job-search --------- */
+.part2 .job-search {
+  width: 25%;
+  height: 50%;
+  position: relative;
+  top: -551vh;
+  left: 72%;
+  background-color: #b9b9b9;
+  padding: 0px 25px 20px 20px;
+}
+.job-search .j-search {
+  width: 100%;
+  height: 40%;
+  position: relative;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid red;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.j-search .specialties {
+  margin-left: 1px;
+  /* gap: 0px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-between;
+}
+/* .specialties h3 {
+  position: relative;
+  margin-left: 25px;
+} */
+.specialties .box-name {
+  width: 18px;
+  height: 18px;
+  display: flex;
+}
+.box-name label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: #5f5f5f;
+  margin-left: 10px;
+}
+.j-search .location {
+  align-items: flex-start;
+  margin-left: 1px;
+  gap: 0px;
+}
+.location h3 {
+  position: relative;
+  margin-left: 25px;
+}
+.location .l-box {
+  width: 18px;
+  height: 18px;
+}
+.l-box label {
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: #5f5f5f;
+  margin-left: 10px;
+}
+
+.location #location{
+  padding: 20px 70% 20px 90px;
+  background-image: url("../assets/magnifying-glass.png");
+  background-size: 19px 19px;
+  background-position: 18px 12px;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 0px;
+  font-size: 5px;
+}
+
+.j-search button {
+  position: relative;
+  top: 5vh;
+  padding: 10px 70px;
+  font-size: 14px;
+  background-color: #0d0c22;
+  border-radius: 50px;
+  font-weight: bold;
+  color: #fff;
+}
+.j-search button:hover {
+  opacity: 0.8;
+  transition: ease 0.5s;
+  cursor: pointer;
+}
