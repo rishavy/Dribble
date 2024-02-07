@@ -771,6 +771,7 @@ a:hover {
   justify-content: center;
   align-items: center;
   gap: .5rem;
+  z-index: 30;
 }
 
 .pogo-ud {
@@ -811,7 +812,7 @@ a:hover {
 }
 .category .slid .box {
   display: inline-block;
-  width: 220px;
+  width: 290px;
   height: 100%;
   /* border: 1px solid red; */
   border-radius: 7px;
@@ -857,6 +858,7 @@ a:hover {
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
+
 }
 .footer-head {
   top: 5vh;
@@ -912,7 +914,7 @@ a:hover {
   align-items: center;
   justify-content: space-between;
   width: 90%;
-  height: 10vh;
+  height: 20vh;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 8px;
   padding-bottom: 1.5%;
@@ -952,6 +954,49 @@ a:hover {
 
 /* footer-ends */
 
+.test {
+  width: 100%;
+  height: 70px;
+  background-color: rgba(255, 252, 252, 0.212);
+  backdrop-filter: blur(15px);
+  z-index: 1;
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.eightds {
+  color: #7779f5;
+  font-size: 16px;
+  /* background-color: #060318; */
+  font-family: "Mona-Sans Bold", "Mona-Sans Bold Placeholder", sans-serif;;
+  /* margin-top: 1.5rem; */
+  margin-left: 1rem;
+}
+
+.bas {
+  color: #6e6d7a;
+  font-size: 12px;
+}
+
+.gsts {
+  display: flex;
+  /* padding: 15px 24px; */
+  padding: 1rem;
+  background-color: #0d0c22;
+  border-radius: 50px;
+  color: white;
+  /* font-weight: bold; */
+  height: 70%;
+  width: auto;
+  margin-right: 1rem;
+}
+
+.gsts a {
+  color: white;
+}
 
 @media only screen and (max-width: 768px) {
   .two-cards {
