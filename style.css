@@ -16,8 +16,7 @@ body {
 /* ---------- Home -> part 1 --------- */
 .header {
   width: 100%;
-  height: 100vh;
-  background-color: #f8f7f4;
+  height: 30vh;
 }
 /* ---------- Navbar --------- */
 .navbar {
@@ -92,18 +91,16 @@ a:hover {
   background-size: 19px 19px;
   background-position: 18px 14px;
   background-repeat: no-repeat;
-  background-color: #fff;
+  background-color: #f8f7f4;
   border-radius: 50px;
   border: 0px;
   font-size: 16px;
 }
 
-/* ---------- Work Part --------- */
-.work {
-  /* border: 1px solid rgb(0, 38, 255); */
-  display: flex;
-  position: relative;
+/*--Dribble Hiring--*/
+.Dribble-Hiring{  
   align-items: center;
+<<<<<<< Updated upstream
   flex-direction: column;
   justify-content: center;
   width: 100%;
@@ -460,11 +457,98 @@ a:hover {
   width: 100%;
   height: 100vh;
   background-color: #ffda79;
+=======
+    display: flex;
+    gap: 24px;
+    width: 100%;
+    height: 30vh;
+    flex-direction: column;
+    justify-content: center;
+    line-height: -2px;
+     }
+     .Dribble-Hiring>.dribble{
+      color: #D145BF;  
+      font-size: large; font-weight: 800;
+     }
+     .designer{
+      font-size: 30px;
+      font-weight: 400;
+      letter-spacing: 1.5px;
+     }
+     .design-talent{
+      gap: 12px;
+      margin-left: 170px;
+      margin-right: 170px;
+       
+     }
+          /*Post a Job & Get Started*/
+  div.flex-1{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+      height: 100vh;
+      flex-direction: row;
+       margin: 80px;
+      position: relative;
+      
+      gap: 50px;
+      width: 80%;
+     
+       
+           }
+
+/* First box[POST A JOB] */
+.post-a-job{
+ align-items: flex-start;
+ display: flex;
+ flex: 1.2 0 0px;
+ flex-direction: column;
+ flex-wrap: nowrap;
+ gap: 19px;
+ height: 550px;
+ justify-content: flex-start;
+ /* max-width: 450px; */
+ /* min-width: 340px; */
+ overflow: visible;
+ padding: 40px 40px 32px;
+ position: relative;
+ width: 1px;
+ border: 2px solid;
+ border-color: hsl(240 4.8% 95.9%);
+  border-radius: 24px;
+}
+.job-board{
+ color: #3D3D4E;
+ font-size: 24px;
+}
+.day{
+ color: #3D3D4E;
+ font-size: 32px;
+ 
+}
+.billed{
+ display: flex;
+ flex: wrap;
+}
+.billed>.material-symbols-outlined{
+ color: green;
+}
+.post{
+>>>>>>> Stashed changes
   display: flex;
-  flex-direction: column;
+  padding: 15px 20px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 50px;
+  color: #0d0c22;
+  font-weight: bold;
+  font-size: large;
   align-items: center;
   justify-content: center;
+  width: 50vh;
 }
+<<<<<<< Updated upstream
 .part4 h1 {
   position: relative;
   top: -11vh;
@@ -494,12 +578,38 @@ a:hover {
 }
 #button .b1 {
   padding: 20px 30px;
+=======
+
+/*Second box[Get Started]*/
+div.Get-Started{
+ align-items: flex-start;
+ display: flex;
+ flex: 1 0 0px;
+ flex-direction: column;
+ flex-wrap: nowrap;
+ gap: 19px;
+ height: 600px;
+ justify-content: flex-start;
+ max-width: 600px;
+ min-width: 340px;
+ overflow: visible;
+ padding: 40px 40px 32px;
+ position: relative;
+ width: 1px;
+ border: 2px solid;
+ 
+ border-color: rgb(234, 100, 217);
+  border-radius: 24px;
+}
+.button-started{
+  display: flex;
+  padding: 15px 20px;
+  background-color: #060318;
+>>>>>>> Stashed changes
   border-radius: 50px;
-  font-size: 14px;
-  background-color: #0d0c22;
-  color: #fff;
-  cursor: pointer;
+  color: #FFFFFF;
   font-weight: bold;
+<<<<<<< Updated upstream
   border: none;
 }
 .part4 #button .b1:hover {
@@ -522,14 +632,14 @@ a:hover {
 }
 .part4 p {
   display: flex;
+=======
+  font-size: large;
+>>>>>>> Stashed changes
   align-items: center;
-  position: relative;
-  font-size: 20px;
-  top: 9vh;
-  font-family: Arial, Helvetica, sans-serif;
-  /* font-weight: ; */
-  color: #252525;
+  justify-content: center;
+  width: 40vh;
 }
+<<<<<<< Updated upstream
 .part4 a {
   font-size: 21px;
 }
@@ -588,10 +698,27 @@ a:hover {
 .box img {
   height: 86%;
   width: 93%;
-  object-fit: cover;
-  object-position: center;
-  border-radius: 10px;
+=======
+
+
+/*--video-container-1 && Start your search--    [START] */
+.video-container-1{
+  /* border: 5px solid red; */
+ display: flex;
+ width: 180vh;
+ height: 63vh;
+ position: relative;
+ left: 80px;
+ gap: 35px;
 }
+.mute-video{
+>>>>>>> Stashed changes
+  object-fit: cover;
+  background-color: aqua;
+  padding-bottom: 50px;
+  border-radius: 20px;
+}
+<<<<<<< Updated upstream
 .box span{
   display: flex;
   font-size: 13px;
@@ -698,3 +825,29 @@ a:hover {
 }
 /* Home Page End */
 
+=======
+
+/*--Start your search--*/
+.search>h2{
+  columns: #3D3D4E;
+  font-size: 32px;
+  margin-top: 20px;
+  padding: 10px;
+}
+.search>p{
+  font-size: large;
+  line-height: 1.8em;
+}
+.button{
+  display: flex;
+  padding: 15px 20px;
+  background-color: #0d0c22;
+  border-radius: 50px;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+  align-items: center;
+  justify-content: center;
+  width: 40vh;
+}/*--video-container-1 && Start your search--  [END]*/
+>>>>>>> Stashed changes
