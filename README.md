@@ -13,17 +13,17 @@ Welcome to the Dribbble Clone project! This project aims to replicate the functi
 ## Technologies Used
 
 - **HTML5/CSS3:** For structuring and styling the web pages.
-- **jQuery:** Used to make functions more structured.
 
 ## Pages and Links
 
 - [Hosted Link](https://rishavy.github.io/Dribble/)
-- Home
-- Popular Shots
-- User Profiles
-- Categories (UI/UX, Illustrations, Branding, etc.)
-- Upload Shot
-- Login/Sign-up
+- [Home](https://rishavy.github.io/Dribble/)
+- [Find talent](https://rishavy.github.io/Dribble/Yash/index.html)
+- [Inspiration](https://rishavy.github.io/Dribble/Inspiration/inspiration.html)
+- Learn design-[UX Diploma](https://rishavy.github.io/Dribble/SHUBHAM/UX%20DIPLOMA%20PAGE/index.html),[Live interactive workshops](https://rishavy.github.io/Dribble/SHUBHAM/index.html)
+- [Jobs](https://rishavy.github.io/Dribble/Jobs/jobs.html)
+- [Go Pro](https://rishavy.github.io/Dribble/Avinash/index.html)
+- [Login](https://rishavy.github.io/Dribble/Avinash/Log-in/login.html)/[Sign-up](https://rishavy.github.io/Dribble/Avinash/sign%20up/signup.html)
 
 ## Website Images
 
