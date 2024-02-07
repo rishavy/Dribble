@@ -6,7 +6,6 @@ Welcome to the Dribbble Clone! This project replicates the essence of the popula
 
 Explore the clone to discover stunning designs, engage with the creative community, and unleash your design potential!
 
-## Hosted Link : [Link]()
 
 ## Features:
 
