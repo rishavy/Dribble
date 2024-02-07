@@ -549,12 +549,24 @@ a:hover {
   /* border: 1px solid green; */
 }
 
-.vid-div video {
+.vid-box {
+  height: 100%;
+  width: 100%;
+}
+
+.vid-box video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* .vid-div video {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center;
-}
+} */
 
 /* professional-brand */
 
@@ -840,7 +852,7 @@ a:hover {
 /* Home -> footer */
 .footer {
   width: 100%;
-  height: 34vh;
+  height: 25vh;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -939,6 +951,124 @@ a:hover {
 }
 
 /* footer-ends */
+
+
+@media only screen and (max-width: 768px) {
+  .two-cards {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    gap: .5rem;
+  }
+  .card-left {
+    margin-left: 0;
+  }
+  .card-right {
+    margin-right: 0;
+  }
+
+  .brands-container .svg-box {
+    /* height: 100px; */
+    width: 120px;
+  }
+
+  .attract-opp {
+    gap: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content-left {
+    margin-left: 0;
+  }
+  .content-right {
+    margin-right: 0;
+    padding: 24px;
+  }
+
+  .nums {
+    gap: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nums .left-down {
+    margin-left: 0;
+  }
+  .right-down {
+    margin-top: 0;
+  }
+
+  .videocard-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  /* pandb */
+
+  .vid-div {
+    height: 60%;
+    width: 100%;
+    /* border: 1px solid green; */
+    position: relative;
+  }
+  
+  .vid-box {
+    position: relative;
+    height: 100%;
+    width: 150%;
+  }
+  
+   .vidp {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .professional-brand {
+    height: 70vh;
+  }
+ /* pandb-end */
+
+ .flag {
+  height: 50vh;
+ }
+ .flag-container .flag-right {
+  height: 0;
+  width: 0;
+ }
+
+ .flag-container {
+  /* height: 100%; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 0;
+ }
+
+ .flag-container .flag-left {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .flag-left .flag-text {
+  text-align: center;
+  line-height: 34px;
+ }
+
+ .pink-card-bottom {
+  width: 70%;
+ }
+
+ .pink-card-top p {
+  font-size: 40px;
+ }
+}
 
 
 
