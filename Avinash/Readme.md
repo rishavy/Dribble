@@ -24,6 +24,58 @@ Explore the clone to discover stunning designs, engage with the creative communi
 
 ### Go Pro Page
 
+![Alt text](<Screenshot-1.png>) ![Alt text](<Screenshot-2.png>) ![Alt text](<Screenshot-3.png>) ![Alt text](<Screenshot-4.png>) ![Alt text](<Screenshot-5.png>) 
+
+## Getting Started
+
+1. Clone the repository: `git clone https://github.com/your-username/indrive-clone.git`
+2. Open the project in your preferred code editor.
+3. Explore the HTML, CSS, and JavaScript files to understand the project structure.
+
+## How to Contribute
+
+If you'd like to contribute to this project, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature-name`.
+3. Make your changes and commit them: `git commit -m 'Add new feature'`.
+4. Push to the branch: `git push origin feature-name`.
+5. Submit a pull request.
+
+# Acknowledgment
+
+I would like to express my gratitude to everyone who contributed to the development of this Dribbble clone website project.
+
+## Project Contributors
+
+Avinash Manigam
+
+### Project Lead
+
+- **[Rishav Ydav]**: Project Lead, responsible for overseeing the development and ensuring alignment with the original Dribbble website's vision.
+
+- # Special Thanks to Mentor Abhishek Kainthla
+
+I would like to extend my heartfelt gratitude to my mentor, Abhishek Kainthla, for being the guiding force behind the successful completion of my project on the Dribble website clone.
+
+## Learning Resources
+
+A heartfelt thank you to [Geekster](https://www.geekster.io/) for providing invaluable learning resources that equipped us with the skills and knowledge necessary for the successful completion of this project.
+
+## Feedback and Support
+
+We appreciate the feedback and support received from our peers, mentors, and the open-source community. Your insights have played a crucial role in refining and improving our work.
+
+## Conclusion
+
+This project would not have been possible without the dedication, collaboration, and continuous support of everyone involved. We look forward to future endeavors and the opportunity to contribute to more impactful and inspiring projects.
+
+Thank you,
+[Avinash Manigam]
+[avinash.m1302@gmail.com]
+
+
+
 
 
 
