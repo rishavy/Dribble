@@ -392,3 +392,68 @@
 }
 
 /* flag-part end */
+   
+ 
+ .Hire-design-talent{
+    /* border: 2px solid black; */
+    text-align: center;
+    margin-top: 100px;
+    font-size: 22px;
+    color: #3D3D4E;
+ }
+ /*--Section Brand--[Start]*/
+ .brands{
+  width: 100%;
+  height: 120vh;
+  display: flex;
+  position: relative;
+   margin-top: 10px;
+   justify-content: space-between;
+  
+ }
+ .world-class-talent{
+      display: flex;
+      flex-direction: column;
+     margin-left: 100px;
+     margin-top: 30px;
+     gap: 25px;
+     width: 40%;
+     height: auto;
+     padding-left: 14px;
+     padding-top: 14px;
+ }
+
+ .talent-1{
+   font-size: 14px;
+   font-weight: bold;
+   color: #0D0C22;
+   background-color: #E6FBFE;
+   width: 167px; 
+ }
+ .world-class-talent>p{
+  color: #3d3d4e;
+  line-height: 1.8em;
+ }
+ .talent-2{
+  font-size: 14px;
+  font-weight: bold;
+  color: #0D0C22;
+  background-color: #E3EBFD;
+  width: 150px; 
+}
+.talent-3{
+  font-size: 14px;
+  font-weight: bold;
+  color: #0D0C22;
+  background-color: #EDDDFB;
+  width: 115px; 
+}
+.image{
+  display: flex;
+  flex-direction: row;
+ margin-top: 30px;
+ object-position: center;
+    object-fit: cover;
+ width: 40%;
+ height: 20vh;
+}
