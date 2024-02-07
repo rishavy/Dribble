@@ -81,7 +81,7 @@
   }
   .navbar-right input {
     padding: 13px 18px 13px 40px;
-    background-image: url("./assets/magnifying-glass.png");
+    background-image: url("../assets/magnifying-glass.png");
     background-size: 19px 19px;
     background-position: 18px 14px;
     background-repeat: no-repeat;
