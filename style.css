@@ -47,7 +47,7 @@ body {
   font-weight: bold;
   font-size: calc(0.8rem + 1vw);
   /* border: 1px solid red; */
-  padding: 20px 180px 20px 20px;
+  padding: 20px 150px 20px 20px;
 }
 a {
   display: flex;
@@ -64,6 +64,71 @@ a:hover {
   transition: all ease 0.5s;
 }
 
+/* ------ drop-down list ------ */
+.navbar-list .drop-down {
+  padding: 10px 12px;
+  width: 150px;
+  font-weight: 600;
+  cursor: pointer;
+  /* background: #ffffff; */
+  color: white;
+  /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); */
+  border-radius: 8px;
+}
+
+.inner-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+}
+
+.drop-down-list {
+  z-index: 10;
+  position: absolute;
+  width: 299px;
+  background: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.055);
+  border-radius: 8px;
+  font-size: 15px;
+  display: none;
+}
+
+.drop-down-list li {
+  list-style: none;
+  height: 100%;
+  padding: 18px 38px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.drop-down p {
+  font-size: 12px;
+}
+
+.drop-down:hover .drop-down-list {
+  display: block;
+}
+.ri-arrow-down-s-line{
+  font-size: 18px;
+}
+.drop-down:hover .ri-arrow-down-s-line {
+  transform: rotate(180deg);
+}
+
+.drop-down-list li:hover {
+  background-color: #e7e7e71c;
+  color: #555555;
+  border-radius: 8px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ------ drop-down list ------ */
+
 .navbar-right {
   display: flex;
   align-items: center;
@@ -71,7 +136,7 @@ a:hover {
   gap: 15px;
   font-weight: bold;
   /* border: 1px solid blue; */
-  padding: 10px 0px 10px 65px;
+  padding: 10px 0px 10px 40px;
 }
 
 .navbar-right > .sign-up {
