@@ -542,6 +542,10 @@
     padding: 10px 20px;
     border-radius: 20px;
 }
+.request-info-details button:hover{
+    background-color: #060318dc;
+    cursor: pointer;
+}
 .student-reviews{
     text-align: center;
     margin-top: 100px;
@@ -645,9 +649,12 @@
 }
 .payment-details-left button{
     background-color: #060318;
-    color: white;
     padding: 10px 100px;
     border-radius: 20px;
+    cursor: pointer;
+}
+.payment-details-left button >a {
+    color: #fff;
 }
 .payment-details-right{
     margin-left: 100px;
@@ -677,10 +684,14 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 .expert-talk-heading button{
-    background-color: #060318;
+    background-color: #060318ef;
     color: white;
     padding: 10px 100px;
     border-radius: 20px;
+    cursor: pointer;
+}
+.expert-talk-heading button:hover{
+    background-color: #0d0c22e7;
 }
 .additional-details{
     display: flex;

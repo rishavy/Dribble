@@ -335,11 +335,13 @@ a {
   padding: 10px 20px;
   border-radius: 30px;
   font-size: 15px;
-  border: 1px solid gray;
+  border: 1px solid #afafaf;
+  background-color: #fff;
   opacity: 1;
 }
 .bt22 button:hover{
-  background-color: #adadadaf;
+  background-color: #d3d3d3af;
+  cursor: pointer;
 }
 
 .part2 .next i {
