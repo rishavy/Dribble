@@ -18,3 +18,9 @@ Explore the clone to discover stunning designs, engage with the creative communi
 
 - HTML
 - CSS
+
+
+### Find Talent Website images
+
+![Alt text](<Screenshot.PNG) ![Alt text](<Screenshot1.PNG>) ![Alt text](<Screenshot2.PNG>) ![Alt text](<Screenshot3.PNG>) ![Alt text](<Screenshot4.PNG>) ![Alt text](<Screenshot5.PNG>) ![Alt text](<Screenshot6.PNG>)
+
