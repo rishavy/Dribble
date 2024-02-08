@@ -33,12 +33,13 @@ Welcome to the Dribbble Clone project! This project aims to replicate the functi
 
 - [Rishav Yadav](https://github.com/rishavy)
 - [Avinash](link-to-profile)
-- [Shubham](link-to-profile)
+- [Shubham]([link-to-profile](https://github.com/Negi-shubham))
 - [Yash](link-to-profile)
 
 ## Special Features
 
-- **[Add your special feature here]:** Briefly describe what makes your Dribbble-Clone unique or any standout functionality that you'd like to highlight.
+- -**UX DIPLOMA PAGE:** On UX Diploma Page people will get the details of the carrear guidance mentor support and you can build the community.
+- -**Live Interactive Workspace:** On this page people will come to know about mentor and their details.
 
 ## Acknowledgments
 
