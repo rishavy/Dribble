@@ -1,23 +1,48 @@
-Description<br>
-Dribbble is a leading online community for showcasing, promoting, discovering, and exploring creative work. It serves as a platform for designers, artists, illustrators, and other creative professionals to share their work with a global audience, gain inspiration, and connect with like-minded individuals.
-Features:<br>
-Portfolio Showcase: Users can create portfolios to showcase their design work, including illustrations, graphics, UI/UX designs, animations, and more.
-Shot Sharing: Members can share individual design shots or works-in-progress, providing insights into their creative process and receiving feedback from the community.<br>
-Community Interaction: Users can like, comment on, and repost shots, fostering engagement and collaboration within the community.<br>
-Discover Feed: Explore a curated feed of design shots, projects, and profiles from a diverse range of creative talents and industries.<br>
-Job Opportunities: Discover design-related job listings and freelance opportunities posted by companies looking to hire creative professionals.<br>
-Design Challenges: Participate in design challenges and prompts to hone your skills, gain exposure, and compete with other designers.<br>
-Collections: Create and curate collections of design shots around specific themes, styles, or topics for easy reference and inspiration.<br>
-Followers & Following: Build a network of followers and follow other designers whose work you admire to stay connected and inspired.<br>
+# Dribbble-Clone
 
-Technologies Used:<br>
-HTML5/CSS3: For structuring and styling the web pages.<br>
+## Overview
 
-Website Images:
-1.
-![UX DESIGN](https://github.com/rishavy/Dribble/assets/143771551/2c0b834f-cbe8-463a-98db-13a0c2238b01)
+Welcome to the Dribbble Clone project! This project aims to replicate the functionality of the popular design showcase platform, Dribbble. Whether you're a developer looking to contribute or a designer wanting to showcase your work in a similar style, you're in the right place.
 
-2.
-Live interactive workspace:
+## Features
 
-![INTERACTIVE WORKSPACE](https://github.com/rishavy/Dribble/assets/143771551/b8702680-1e5d-4c99-81bc-ee5c80847151)
+- **Explore Shots:** Users can browse a diverse range of design shots, categorized by UI/UX, illustrations, branding, and more.
+- **User-Friendly Design:** Our design language is easy and aesthetically pleasing to use.
+- **Responsive Design:** The frontend is designed to be responsive, ensuring a consistent and enjoyable experience across various devices.
+
+## Technologies Used
+
+- **HTML5/CSS3:** For structuring and styling the web pages.
+
+## Pages and Links
+
+- [Hosted Link](https://rishavy.github.io/Dribble/)
+- [Home](https://rishavy.github.io/Dribble/)
+- [Find talent](https://rishavy.github.io/Dribble/Yash/index.html)
+- [Inspiration](https://rishavy.github.io/Dribble/Inspiration/inspiration.html)
+- Learn design-[UX Diploma](https://rishavy.github.io/Dribble/SHUBHAM/UX%20DIPLOMA%20PAGE/index.html) / [Live interactive workshops](https://rishavy.github.io/Dribble/SHUBHAM/index.html)
+- [Jobs](https://rishavy.github.io/Dribble/Jobs/jobs.html)
+- [Go Pro](https://rishavy.github.io/Dribble/Avinash/index.html)
+- [Login](https://rishavy.github.io/Dribble/Avinash/Log-in/login.html) / [Sign-up](https://rishavy.github.io/Dribble/Avinash/sign%20up/signup.html)
+
+## Website Images
+
+![Website Screenshot](path-to-screenshot-image)
+
+## Contributors
+
+- [Rishav Yadav](https://github.com/rishavy)
+- [Avinash](link-to-profile)
+- [Shubham](link-to-profile)
+- [Yash](link-to-profile)
+
+## Special Features
+
+- **[Add your special feature here]:** Briefly describe what makes your Dribbble-Clone unique or any standout functionality that you'd like to highlight.
+
+## Acknowledgments
+
+- This project draws inspiration from the design and functionality of Dribbble.
+- Special thanks to the Contributors for their invaluable contributions.
+Am grateful to [Geekathon] for providing the platform to collaborate on this project.
+- Lastly, thankful to our teachers and mentors.
