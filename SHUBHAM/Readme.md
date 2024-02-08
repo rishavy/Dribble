@@ -1,4 +1,4 @@
-![UX DESIGN](https://github.com/rishavy/Dribble/assets/143771551/bfab17ad-c2ab-4561-aa8f-ad9c36675aad)# Dribbble-Clone
+# Dribbble-Clone
 
 ## Overview
 
