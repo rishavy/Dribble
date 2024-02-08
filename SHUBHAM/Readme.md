@@ -33,7 +33,7 @@ Welcome to the Dribbble Clone project! This project aims to replicate the functi
 
 - [Rishav Yadav](https://github.com/rishavy)
 - [Avinash](link-to-profile)
-- [Shubham]([link-to-profile](https://github.com/Negi-shubham))
+- [Shubham](https://github.com/Negi-shubham)
 - [Yash](link-to-profile)
 
 ## Special Features
