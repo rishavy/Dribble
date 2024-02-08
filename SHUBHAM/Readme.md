@@ -18,5 +18,6 @@ Website Images:
 ![UX DESIGN](https://github.com/rishavy/Dribble/assets/143771551/2c0b834f-cbe8-463a-98db-13a0c2238b01)
 
 2.
-Live interactive woekspace:
+Live interactive workspace:
 
+![INTERACTIVE WORKSPACE](https://github.com/rishavy/Dribble/assets/143771551/b8702680-1e5d-4c99-81bc-ee5c80847151)
