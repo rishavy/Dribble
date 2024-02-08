@@ -1,4 +1,4 @@
-# Dribbble-Clone
+![UX DESIGN](https://github.com/rishavy/Dribble/assets/143771551/bfab17ad-c2ab-4561-aa8f-ad9c36675aad)# Dribbble-Clone
 
 ## Overview
 
@@ -26,8 +26,8 @@ Welcome to the Dribbble Clone project! This project aims to replicate the functi
 - [Login](https://rishavy.github.io/Dribble/Avinash/Log-in/login.html) / [Sign-up](https://rishavy.github.io/Dribble/Avinash/sign%20up/signup.html)
 
 ## Website Images
-
-![Website Screenshot]("D:\CSS GEEKSTER\GEEKATHON\UX DESIGN.png")
+![UX DESIGN](https://github.com/rishavy/Dribble/assets/143771551/4e4256be-f153-4528-b719-a748c34cd387)
+![INTERACTIVE WORKSPACE](https://github.com/rishavy/Dribble/assets/143771551/e3637061-9e10-4668-8ba9-c6001a832539)
 
 ## Contributors
 
