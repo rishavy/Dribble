@@ -80,6 +80,26 @@
   color: black;
 }
 
+/* ------ drop-down list ------ */
+.navbar-list .drop-down {
+  padding: 10px 12px;
+  width: 150px;
+  font-weight: 600;
+  cursor: pointer;
+  /* background: #ffffff; */
+  color: white;
+  /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); */
+  border-radius: 8px;
+}
+
+.inner-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+}
+
 .drop-down-list {
   z-index: 10;
   position: absolute;
