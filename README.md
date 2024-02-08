@@ -27,18 +27,15 @@ Welcome to the Dribbble Clone project! This project aims to replicate the functi
 
 ## Website Images
 
-![Website Screenshot](path-to-screenshot-image)
+![Website Screenshot](https://github.com/rishavy/Dribble/blob/main/Dribbble-Clone%20imgs/home1-%20rishavy.github.io.png)
 
 ## Contributors
 
 - [Rishav Yadav](https://github.com/rishavy)
-- [Avinash](link-to-profile)
-- [Shubham](link-to-profile)
-- [Yash](link-to-profile)
+- [Avinash](https://github.com/Avinash01-GIT)
+- [Shubham](https://github.com/Negi-shubham)
+- [Yash](https://github.com/Yashkapoor321)
 
-## Special Features
-
-- **[Add your special feature here]:** Briefly describe what makes your Dribbble-Clone unique or any standout functionality that you'd like to highlight.
 
 ## Acknowledgments
 
