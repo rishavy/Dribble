@@ -59,6 +59,72 @@
     transition: all ease 0.5s;
   }
 
+
+  /* ------ drop-down list ------ */
+.navbar-list .drop-down {
+  padding: 10px 12px;
+  width: 150px;
+  font-weight: 600;
+  cursor: pointer;
+  /* background: #ffffff; */
+  color: white;
+  /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); */
+  border-radius: 8px;
+}
+
+.inner-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+}
+
+.drop-down-list {
+  z-index: 10;
+  position: absolute;
+  width: 299px;
+  background: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.055);
+  border-radius: 8px;
+  font-size: 15px;
+  display: none;
+}
+
+.drop-down-list li {
+  list-style: none;
+  height: 100%;
+  padding: 18px 38px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.drop-down p {
+  font-size: 12px;
+}
+
+.drop-down:hover .drop-down-list {
+  display: block;
+}
+.ri-arrow-down-s-line{
+  font-size: 18px;
+}
+.drop-down:hover .ri-arrow-down-s-line {
+  transform: rotate(180deg);
+}
+
+.drop-down-list li:hover {
+  background-color: #e7e7e71c;
+  color: #555555;
+  border-radius: 8px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ------ drop-down list ------ */
+
   .navbar-right {
     display: flex;
     align-items: center;
@@ -301,9 +367,9 @@
  }
 
 
- /* flag-part */
+ /* .one-signal */
 
-.flag {
+.one-signal {
   width: 100%;
   height: 60vh;
   /* border: 1px solid black; */
@@ -313,7 +379,7 @@
   gap: 60px;
 }
 
-.flag-container {
+.one-signal-container {
   height: 320px;
   width: 945px;
   /* border: 1px solid red; */
@@ -323,7 +389,7 @@
   cursor: pointer;
 }
 
-.flag-container .flag-left {
+.one-signal-container .one-signal-left {
   width: 60%;
   height: 100%;
   border: 2px solid rgb(231, 231, 233);
@@ -336,17 +402,13 @@
   padding: 2rem;
 }
 
-.flag-text {
+.one-signal-text {
   font-size: x-large;
   line-height: 32px;
   font-family: "Manrope", sans-serif;
 }
 
-.his-job {
-  font-family: "Manrope", sans-serif;
-}
-
-.flag-person {
+.person {
   display: flex;
   align-items: center;
   gap: 1.2rem;
@@ -357,7 +419,7 @@
   border-radius: 20px;
 }
 
-.flag-container .flag-right {
+.one-signal-container .one-signal-right {
   width: 40%;
   height: 100%;
   background: linear-gradient(rgb(59, 143, 221) 0%, rgb(255, 197, 243) 100%);
@@ -368,13 +430,13 @@
   justify-content: center;
 }
 
-.flag-right .flag-holder {
+.one-signal-right .one-signal-img {
   height: 120px;
   width: 120px;
   position: absolute;
 }
 
-.flag-holder img {
+.one-signal-img img {
   display: block;
   width: 100%;
   height: 100%;
@@ -385,14 +447,14 @@
   /* transition: all 5s ease-in-out; */
 }
 
-.flag-holder:hover {
+.one-signal-img:hover {
   transform: rotate(10deg);
   height: 130px;
   width: 130px;
   transition: all 0.3s ease-in-out;
 }
 
-/* flag-part end */
+/* .one-signal end */
    
  
  .Hire-design-talent{
