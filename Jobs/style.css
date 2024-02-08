@@ -216,7 +216,7 @@ a {
 /* --------------- part 2 ------------- */
 .part2 {
   width: 100%;
-  height: 100%;
+  height: 300vh;
   /* border: 1px solid blue; */
 }
 .part2 .bt button {
@@ -303,7 +303,8 @@ a {
   border-radius: 50%;
   height: 60px;
   width: 60px;
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
+  margin-left: 20px;
 }
 .data .c-name{
   display: flex;
@@ -349,7 +350,7 @@ a {
   background-color: #d1d1d1;
   color: #fff;
   border-radius: 50%;
-  top: 15vh;
+  top: -45vh;
 }
 .part2 .next i:hover {
   background-color: #c2c2c2;
@@ -359,9 +360,9 @@ a {
 /* -------- job-search --------- */
 .part2 .job-search {
   width: 25%;
-  height: 45%;
+  height: 87%;
   position: relative;
-  top: -109rem;
+  top: -141rem;
   left: 72%;
   /* background-color: #b9b9b9; */
   /* padding: 0px 25px 20px 20px; */
@@ -563,8 +564,7 @@ display: none;
   /* border: 1px solid red; */
 }
 .footer-logo {
-  /* border: 1px solid red; */
-  margin-left: 5%;
+    margin-left: 5%;
   padding: 0px;
 }
 .footer-logo img {
@@ -587,7 +587,7 @@ display: none;
   margin-left: -8%;
 }
 .footer-icons {
-  margin-right: 5%;
+    margin-right: 5%;
   display: flex;
   align-items: center;
   /* border:1px solid rgb(212, 0, 255); */
@@ -607,6 +607,7 @@ display: none;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 8px;
   padding-bottom: 1.5%;
+  margin-left: 5%;
   /* border: 1px solid darkmagenta; */
 }
 .footer-term {
@@ -640,4 +641,4 @@ display: none;
   gap: 14.5px;
   /* border: 1px solid green; */
 }
-/* Page End */
+/* Home Page End */
