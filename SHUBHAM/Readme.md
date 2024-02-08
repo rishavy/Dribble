@@ -27,7 +27,7 @@ Welcome to the Dribbble Clone project! This project aims to replicate the functi
 
 ## Website Images
 
-![Website Screenshot](path-to-screenshot-image)
+![Website Screenshot]("D:\CSS GEEKSTER\GEEKATHON\UX DESIGN.png")
 
 ## Contributors
 
