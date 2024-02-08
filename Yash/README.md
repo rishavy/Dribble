@@ -67,8 +67,3 @@ A heartfelt thank you to [Geekster](https://www.geekster.io/) for providing inva
 ## Feedback and Support
 
 We appreciate the feedback and support received from our peers, mentors, and the open-source community. Your insights have played a crucial role in refining and improving our work.
-
-
-
-
-
