@@ -31,7 +31,6 @@ body {
 
 .navbar-logo {
   display: flex;
-  /* align-items: center; */
   justify-content: center;
   cursor: pointer;
   /* border: 1px solid #6f00ff; */
