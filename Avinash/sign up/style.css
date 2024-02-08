@@ -101,7 +101,7 @@ body {
   height: 3.5rem;
   width: 100%;
   border-radius: 25px;
-  border: none;
+  border: 1px solid #dfdfdf;
   font-weight: bold;
   line-height: 18px;
   padding: 0;

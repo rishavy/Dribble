@@ -158,6 +158,9 @@ a {
   border: 0px;
   font-size: 16px;
 }
+.navbar-right input:hover{
+  border: 0;
+}
 
 /* ---------- Work Part --------- */
 .work {
@@ -336,7 +339,7 @@ color: #7e7e7ece;
 /* body section part */
 .inspiration {
   width: 100%;
-  height: 335vh;
+  height: 316vh;
   /* border: 1px solid blue; */
 }
 
@@ -518,7 +521,7 @@ color: #7e7e7ece;
   /* top: 6vh; */
   padding: 12px 18px;
   margin-left: 45%;
-  margin-top: 9.5%;
+  margin-top: 6%;
   font-size: 14px;
   background-color: #ffffff;
   border-radius: 50px;

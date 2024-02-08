@@ -295,18 +295,18 @@ a {
   align-items: center;
   justify-content: space-between;
 }
-.daata .entry{
+.daata .entry {
   display: flex;
   align-items: flex-start;
 }
-.entry img{
+.entry img {
   border-radius: 50%;
   height: 60px;
   width: 60px;
   /* border: 1px solid gray; */
   margin-left: 20px;
 }
-.data .c-name{
+.data .c-name {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -315,7 +315,7 @@ a {
   font-size: 15px;
   font-weight: bold;
 }
-.data .time{
+.data .time {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -325,13 +325,13 @@ a {
   gap: 10px;
   color: #7c7c7c;
 }
-.data .bt22{
+.data .bt22 {
   display: block;
   margin-right: 16px;
   align-items: center;
   justify-content: center;
 }
-.bt22 button{
+.bt22 button {
   padding: 10px 20px;
   border-radius: 30px;
   font-size: 15px;
@@ -339,7 +339,7 @@ a {
   background-color: #fff;
   opacity: 1;
 }
-.bt22 button:hover{
+.bt22 button:hover {
   background-color: #d3d3d3af;
   cursor: pointer;
 }
@@ -378,11 +378,11 @@ a {
   border: 1px solid #a5a5a55e;
   border-radius: 15px;
   font-family: Arial, Helvetica, sans-serif;
-  padding: .5rem;
+  padding: 0.5rem;
   /* gap: 1rem; */
 }
 
- .spice {
+.spice {
   width: 100%;
   height: 350px;
   /* border: 1px solid black; */
@@ -391,13 +391,12 @@ a {
   padding-left: 1rem;
   margin-bottom: 1rem;
 }
-.spice hr{
+.spice hr {
   color: #7c7c7c;
   margin-top: 5vh;
   color: #7c7c7c;
   margin-right: 7%;
 }
-
 
 .checkbox-head {
   /* background-color: aqua; */
@@ -420,7 +419,7 @@ a {
 }
 
 .checkbox__input {
-display: none;
+  display: none;
 }
 
 .checkbox__box {
@@ -436,7 +435,7 @@ display: none;
 }
 
 .checkbox__box::after {
-  content: '\2714';
+  content: "\2714";
   color: white;
 }
 
@@ -449,30 +448,30 @@ display: none;
   margin-bottom: 2.5rem;
 }
 
-.checkbox-container hr{
+.checkbox-container hr {
   color: #7c7c7c;
   margin-top: 1.5vh;
   color: #7c7c7c;
   margin-right: 7%;
 }
 
- .loki {
+.loki {
   /* border: 1px solid green; */
   width: 100%;
   height: 350px;
   display: flex;
   flex-direction: column;
   padding-left: 1rem;
- }
- .loki input{
+}
+.loki input {
   padding: 12px 10px 12px 18px;
   margin-top: 15px;
   margin-left: 0;
   margin-bottom: 5px;
   background: none;
- }
- 
- .loki button{
+}
+
+.loki button {
   position: relative;
   top: 5vh;
   padding: 10px 100px;
@@ -488,8 +487,8 @@ display: none;
   cursor: pointer;
 }
 
- /* -------------------------------------------- */
- /* ---------- Jobs -> slide Part --------- */
+/* -------------------------------------------- */
+/* ---------- Jobs -> slide Part --------- */
 .category {
   width: 100%;
   height: 45vh;
@@ -550,7 +549,7 @@ display: none;
 /* Home -> footer */
 .footer {
   width: 100%;
-  height: 34vh;
+  height: 25vh;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -566,7 +565,7 @@ display: none;
   /* border: 1px solid red; */
 }
 .footer-logo {
-    margin-left: 5%;
+  margin-left: 5%;
   padding: 0px;
 }
 .footer-logo img {
@@ -589,7 +588,7 @@ display: none;
   margin-left: -8%;
 }
 .footer-icons {
-    margin-right: 5%;
+  margin-right: 5%;
   display: flex;
   align-items: center;
   /* border:1px solid rgb(212, 0, 255); */
