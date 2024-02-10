@@ -1,4 +1,4 @@
-# Dribbble-Clone
+# ![Logo](https://cdn.dribbble.com/assets/favicon-99944ff731bb44d3a947810ca8728f177f8deac035a3a4342120c385fd7acb9d.svg) Dribbble-Clone
 
 ## Overview
 
@@ -31,7 +31,8 @@ Welcome to the Dribbble Clone project! This project aims to replicate the functi
 
 ## Website Images
 
-![Website Screenshot](https://github.com/rishavy/Dribble/blob/main/Dribbble-Clone%20imgs/home%20page.png)
+![Website Screenshot](https://github.com/rishavy/Dribble/blob/main/Dribbble-Clone%20imgs/all%20in%20one%201.jpg)
+![Website Screenshot](https://github.com/rishavy/Dribble/blob/main/Dribbble-Clone%20imgs/all%20in%20one%202.jpg)
 
 ## Contributors
 
